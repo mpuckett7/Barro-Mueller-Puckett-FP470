@@ -11,13 +11,22 @@
 #  - Run `make`
 #  - Start the simulation using `./poiseuille2d`
 
+# Parallelization mode, must be one of: OFF, MPI, OMP, HYBRID
+# Note that for MPI and HYBRID the compiler also needs to be adapted.
+# See e.g. `config/cpu_gcc_openmpi.mk`
+PARALLEL_MODE   := MPI
+
+# optional MPI and OpenMP flags
+MPIFLAGS        :=
+OMPFLAGS        := -fopenmp
+
 # Compiler to use for C++ files, change to `mpic++` when using OpenMPI and GCC
-CXX             := g++
+CXX             := mpic++
 # Compiler to use for C files (used for emebedded dependencies)
-CC              := gcc
+CC              := mpicc
 
 # Suggested optimized build flags for GCC, consult `config/` for further examples
-CXXFLAGS        := -O3 -Wall -march=native -mtune=native
+CXXFLAGS        += -O3 -Wall -march=native -mtune=native
 # Uncomment to add debug symbols and enable runtime asserts
 #CXXFLAGS        += -g -DOLB_DEBUG
 
@@ -30,15 +39,6 @@ CXXFLAGS        += -std=c++17
 
 # optional linker flags
 LDFLAGS         :=
-
-# Parallelization mode, must be one of: OFF, MPI, OMP, HYBRID
-# Note that for MPI and HYBRID the compiler also needs to be adapted.
-# See e.g. `config/cpu_gcc_openmpi.mk`
-PARALLEL_MODE   := OFF
-
-# optional MPI and OpenMP flags
-MPIFLAGS        :=
-OMPFLAGS        := -fopenmp
 
 # Options: CPU_SISD, CPU_SIMD, GPU_CUDA
 # Both CPU_SIMD and GPU_CUDA require system-specific adjustment of compiler flags.

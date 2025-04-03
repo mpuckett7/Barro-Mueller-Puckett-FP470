@@ -22,8 +22,6 @@
  *  Boston, MA  02110-1301, USA.
  */
 
-
-
 /* dkt2d.cpp:
  * The case examines the settling of two circles under gravity
  * in a surrounding fluid. The rectangular domain is limited
@@ -47,7 +45,6 @@
 
 #define NEW_FRAMEWORK
 
-
 #include "olb2D.h"
 #include "olb2D.hh"
 
@@ -62,10 +59,10 @@ using namespace olb::util;
 
 using T = FLOATING_POINT_TYPE;
 
-//Define lattice type
+// Define lattice type
 typedef PorousParticleWithContactD2Q9Descriptor DESCRIPTOR;
 
-//Define particle type
+// Define particle type
 typedef ResolvedCircleWithContact2D PARTICLETYPE;
 
 // Define particle-particle contact type
@@ -74,7 +71,6 @@ typedef ParticleContactArbitraryFromOverlapVolume<T, DESCRIPTOR::d, true>
 // Define particle-wall contact type
 typedef WallContactArbitraryFromOverlapVolume<T, DESCRIPTOR::d, true>
     WALLCONTACTTYPE;
-
 
 #define WriteVTK
 #define WriteGnuPlot
@@ -85,24 +81,24 @@ std::string gnuplotFilename = "gnuplot.dat";
 int N = 1;
 int M = N;
 
-T eps = 0.5;      // eps*latticeL: width of transition area
+T eps = 0.5; // eps*latticeL: width of transition area
 
-T maxPhysT = 6.;  // max. simulation time in s, SI unit
-T iTwrite = 0.125;  //converter.getLatticeTime(.3);
+T maxPhysT = 6.;   // max. simulation time in s, SI unit
+T iTwrite = 0.125; // converter.getLatticeTime(.3);
 
 T lengthX = 0.02;
 T lengthY = 0.08;
 
 T centerX1 = 0.01;
 T centerY1 = 0.068;
-Vector<T,2> center1 = {centerX1,centerY1};
+Vector<T, 2> center1 = {centerX1, centerY1};
 T centerX2 = 0.00999;
 T centerY2 = 0.072;
-Vector<T,2> center2 = {centerX2,centerY2};
+Vector<T, 2> center2 = {centerX2, centerY2};
 
 T rhoP = 1010.;
 T radiusP = 0.001;
-Vector<T,2> accExt = {.0, -T(9.81) * (T(1) - T(1000) / rhoP)};
+Vector<T, 2> accExt = {.0, -T(9.81) * (T(1) - T(1000) / rhoP)};
 
 unsigned contactBoxResolutionPerDirection = 8;
 unsigned particleContactMaterial = 0;
@@ -113,8 +109,8 @@ T coefficientOfRestitution = 0.9;
 T coefficientStaticFriction = 0.6;
 T coefficientKineticFriction = 0.3;
 
-void prepareGeometry(UnitConverter<T,DESCRIPTOR> const& converter,
-                     SuperGeometry<T,2>& superGeometry)
+void prepareGeometry(UnitConverter<T, DESCRIPTOR> const &converter,
+                     SuperGeometry<T, 2> &superGeometry)
 {
   OstreamManager clout(std::cout, "prepareGeometry");
   clout << "Prepare Geometry ..." << std::endl;
@@ -131,8 +127,8 @@ void prepareGeometry(UnitConverter<T,DESCRIPTOR> const& converter,
 }
 
 void prepareLattice(
-  SuperLattice<T, DESCRIPTOR>& sLattice, UnitConverter<T,DESCRIPTOR> const& converter,
-  SuperGeometry<T,2>& superGeometry)
+    SuperLattice<T, DESCRIPTOR> &sLattice, UnitConverter<T, DESCRIPTOR> const &converter,
+    SuperGeometry<T, 2> &superGeometry)
 {
   OstreamManager clout(std::cout, "prepareLattice");
   clout << "Prepare Lattice ..." << std::endl;
@@ -146,14 +142,14 @@ void prepareLattice(
   clout << "Prepare Lattice ... OK" << std::endl;
 }
 
-void setBoundaryValues(SuperLattice<T, DESCRIPTOR>& sLattice,
-                       UnitConverter<T,DESCRIPTOR> const& converter,
-                       SuperGeometry<T,2>& superGeometry)
+void setBoundaryValues(SuperLattice<T, DESCRIPTOR> &sLattice,
+                       UnitConverter<T, DESCRIPTOR> const &converter,
+                       SuperGeometry<T, 2> &superGeometry)
 {
   OstreamManager clout(std::cout, "setBoundaryValues");
 
   AnalyticalConst2D<T, T> one(1.);
-  sLattice.defineField<POROSITY>(superGeometry.getMaterialIndicator({1,2}), one);
+  sLattice.defineField<POROSITY>(superGeometry.getMaterialIndicator({1, 2}), one);
 
   // Set initial condition
   AnalyticalConst2D<T, T> ux(0.);
@@ -161,7 +157,7 @@ void setBoundaryValues(SuperLattice<T, DESCRIPTOR>& sLattice,
   AnalyticalConst2D<T, T> rho(1.);
   AnalyticalComposed2D<T, T> u(ux, uy);
 
-  //Initialize all values of distribution functions to their local equilibrium
+  // Initialize all values of distribution functions to their local equilibrium
   sLattice.defineRhoU(superGeometry, 1, rho, u);
   sLattice.iniEquilibrium(superGeometry, 1, rho, u);
 
@@ -169,10 +165,10 @@ void setBoundaryValues(SuperLattice<T, DESCRIPTOR>& sLattice,
   sLattice.initialize();
 }
 
-void getResults(SuperLattice<T, DESCRIPTOR>& sLattice,
-                UnitConverter<T,DESCRIPTOR> const& converter, int iT,
-                SuperGeometry<T,2>& superGeometry, Timer<double>& timer,
-                ParticleSystem<T,PARTICLETYPE>& particleSystem )
+void getResults(SuperLattice<T, DESCRIPTOR> &sLattice,
+                UnitConverter<T, DESCRIPTOR> const &converter, int iT,
+                SuperGeometry<T, 2> &superGeometry, Timer<double> &timer,
+                ParticleSystem<T, PARTICLETYPE> &particleSystem)
 {
   OstreamManager clout(std::cout, "getResults");
 
@@ -182,14 +178,15 @@ void getResults(SuperLattice<T, DESCRIPTOR>& sLattice,
   SuperLatticePhysPressure2D<T, DESCRIPTOR> pressure(sLattice, converter);
   SuperLatticePhysExternalPorosity2D<T, DESCRIPTOR> externalPor(sLattice, converter);
   SuperLatticeMomentumExchangeForceLocal<T, DESCRIPTOR, PARTICLETYPE> momentumExchange(
-    sLattice, converter, superGeometry, particleSystem);
+      sLattice, converter, superGeometry, particleSystem);
 
   vtkWriter.addFunctor(velocity);
   vtkWriter.addFunctor(pressure);
   vtkWriter.addFunctor(externalPor);
   vtkWriter.addFunctor(momentumExchange);
 
-  if (iT == 0) {
+  if (iT == 0)
+  {
     converter.write("dkt");
     SuperLatticeGeometry2D<T, DESCRIPTOR> geometry(sLattice, superGeometry);
     SuperLatticeCuboid2D<T, DESCRIPTOR> cuboid(sLattice);
@@ -200,25 +197,27 @@ void getResults(SuperLattice<T, DESCRIPTOR>& sLattice,
     vtkWriter.createMasterFile();
   }
 
-  if (iT % converter.getLatticeTime(iTwrite) == 0) {
+  if (iT % converter.getLatticeTime(iTwrite) == 0)
+  {
     vtkWriter.write(iT);
   }
 #endif
 
-
-  auto particleA = particleSystem.get( 0 );
-  auto particleB = particleSystem.get( 1 );
+  auto particleA = particleSystem.get(0);
+  auto particleB = particleSystem.get(1);
 
 #ifdef WriteGnuPlot
-  if (iT % converter.getLatticeTime(iTwrite) == 0) {
-    if (singleton::mpi().getRank() == 0) {
+  if (iT % converter.getLatticeTime(iTwrite) == 0)
+  {
+    if (singleton::mpi().getRank() == 0)
+    {
 
       std::ofstream myfile;
-      myfile.open (gnuplotFilename.c_str(), std::ios::app);
-      T p2PosY = particleB.getField<GENERAL,POSITION>()[1];
-      T p1PosY = particleA.getField<GENERAL,POSITION>()[1];
-      T p2PosX = particleB.getField<GENERAL,POSITION>()[0];
-      T p1PosX = particleA.getField<GENERAL,POSITION>()[0];
+      myfile.open(gnuplotFilename.c_str(), std::ios::app);
+      T p2PosY = particleB.getField<GENERAL, POSITION>()[1];
+      T p1PosY = particleA.getField<GENERAL, POSITION>()[1];
+      T p2PosX = particleB.getField<GENERAL, POSITION>()[0];
+      T p1PosX = particleA.getField<GENERAL, POSITION>()[0];
       myfile
           << converter.getPhysTime(iT) << " "
           << std::setprecision(9)
@@ -232,33 +231,35 @@ void getResults(SuperLattice<T, DESCRIPTOR>& sLattice,
 #endif
 
   /// Writes output on the console
-  if (iT % converter.getLatticeTime(iTwrite) == 0) {
+  /// changed to only use one process when MPI is in use --beau
+  if (singleton::mpi().getRank() == 0 && iT % converter.getLatticeTime(iTwrite) == 0)
+  {
     timer.update(iT);
     timer.printStep();
     sLattice.getStatistics().print(iT, converter.getPhysTime(iT));
-    for (std::size_t iP=0; iP<particleSystem.size(); ++iP) {
+    for (std::size_t iP = 0; iP < particleSystem.size(); ++iP)
+    {
       auto particle = particleSystem.get(iP);
       io::printResolvedParticleInfo(particle);
     }
   }
-
   return;
 }
 
-int main(int argc, char* argv[])
+int main(int argc, char *argv[])
 {
   /// === 1st Step: Initialization ===
   olbInit(&argc, &argv);
   singleton::directories().setOutputDir("./tmp/");
   OstreamManager clout(std::cout, "main");
 
-  UnitConverter<T,DESCRIPTOR> converter(
-    ( T )   0.0001/ N, //physDeltaX
-    ( T )   5.e-4/(N*M), //physDeltaT,
-    ( T )   .002, //charPhysLength
-    ( T )   0.2, //charPhysVelocity
-    ( T )   1E-6, //physViscosity
-    ( T )   1000. //physDensity
+  UnitConverter<T, DESCRIPTOR> converter(
+      (T)0.0001 / N,      // physDeltaX
+      (T)5.e-4 / (N * M), // physDeltaT,
+      (T).002,            // charPhysLength
+      (T)0.2,             // charPhysVelocity
+      (T)1E-6,            // physViscosity
+      (T)1000.            // physDensity
   );
   converter.print();
 
@@ -276,7 +277,7 @@ int main(int argc, char* argv[])
 #endif
 
   HeuristicLoadBalancer<T> loadBalancer(cuboidGeometry);
-  SuperGeometry<T,2> superGeometry(cuboidGeometry, loadBalancer, 2);
+  SuperGeometry<T, 2> superGeometry(cuboidGeometry, loadBalancer, 2);
   prepareGeometry(converter, superGeometry);
 
   /// === 3rd Step: Prepare Lattice ===
@@ -286,25 +287,29 @@ int main(int argc, char* argv[])
 
   /// === 4th Step: Main Loop with Timer ===
   Timer<double> timer(converter.getLatticeTime(maxPhysT), superGeometry.getStatistics().getNvoxel());
-  timer.start();
+  if (singleton::mpi().getRank() == 0)
+  {
+    timer.start();
+  }
 
   // Create ParticleSystem
-  ParticleSystem<T,PARTICLETYPE> particleSystem;
+  ParticleSystem<T, PARTICLETYPE> particleSystem;
 
-  //Create particle manager handling coupling, gravity and particle dynamics
-  ParticleManager<T,DESCRIPTOR,PARTICLETYPE> particleManager(
-    particleSystem, superGeometry, sLattice, converter, accExt);
+  // Create particle manager handling coupling, gravity and particle dynamics
+  ParticleManager<T, DESCRIPTOR, PARTICLETYPE> particleManager(
+      particleSystem, superGeometry, sLattice, converter, accExt);
 
   // Create and assign resolved particle dynamics
   particleSystem.defineDynamics<
-    VerletParticleDynamics<T,PARTICLETYPE>>();
+      VerletParticleDynamics<T, PARTICLETYPE>>();
 
   // Create solid boundaries for particle interaction
   std::vector<SolidBoundary<T, DESCRIPTOR::d>> solidBoundaries;
-  solidBoundaries.push_back(  SolidBoundary<T, DESCRIPTOR::d>(
-        std::make_unique<IndicInverse<T, DESCRIPTOR::d>>(
+  solidBoundaries.push_back(SolidBoundary<T, DESCRIPTOR::d>(
+      std::make_unique<IndicInverse<T, DESCRIPTOR::d>>(
           cuboid, cuboid.getMin() - 5 * converter.getPhysDeltaX(),
-          cuboid.getMax() + 5 * converter.getPhysDeltaX()), 2, wallContactMaterial));
+          cuboid.getMax() + 5 * converter.getPhysDeltaX()),
+      2, wallContactMaterial));
 
   // Create objects for contact treatment
   ContactContainer<T, PARTICLECONTACTTYPE, WALLCONTACTTYPE> contactContainer;
@@ -315,23 +320,23 @@ int main(int argc, char* argv[])
                                                   poissonRatio, poissonRatio),
                         coefficientOfRestitution, coefficientKineticFriction, coefficientStaticFriction);
 
-
   T epsilon = eps * converter.getConversionFactorLength();
   T radius = radiusP;
 
   // Create Particle 1
-  creators::addResolvedCircle2D( particleSystem, center1,
-                                 radius, epsilon, rhoP );
+  creators::addResolvedCircle2D(particleSystem, center1,
+                                radius, epsilon, rhoP);
 
   // Create Particle 2
-  creators::addResolvedCircle2D( particleSystem, center2,
-                                 radius, epsilon, rhoP );
+  creators::addResolvedCircle2D(particleSystem, center2,
+                                radius, epsilon, rhoP);
 
-  //Check ParticleSystem
+  // Check ParticleSystem
   particleSystem.checkForErrors();
 
   // Set contact material
-  for (std::size_t iP = 0; iP < particleSystem.size(); ++iP) {
+  for (std::size_t iP = 0; iP < particleSystem.size(); ++iP)
+  {
     auto particle = particleSystem.get(iP);
     setContactMaterial(particle, particleContactMaterial);
   }
@@ -340,20 +345,20 @@ int main(int argc, char* argv[])
   setBoundaryValues(sLattice, converter, superGeometry);
 
   {
-    auto& communicator = sLattice.getCommunicator(stage::PostPostProcess());
+    auto &communicator = sLattice.getCommunicator(stage::PostPostProcess());
     communicator.requestOverlap(sLattice.getOverlap());
-    communicator.requestFields<POROSITY,VELOCITY_NUMERATOR,VELOCITY_DENOMINATOR>();
+    communicator.requestFields<POROSITY, VELOCITY_NUMERATOR, VELOCITY_DENOMINATOR>();
     communicator.exchangeRequests();
   }
 
   clout << "MaxIT: " << converter.getLatticeTime(maxPhysT) << std::endl;
-  for (std::size_t iT = 0; iT < converter.getLatticeTime(maxPhysT)+10; ++iT) {
+  for (std::size_t iT = 0; iT < converter.getLatticeTime(maxPhysT) + 10; ++iT)
+  {
 
     // Execute particle manager
     particleManager.execute<
-      couple_lattice_to_particles<T,DESCRIPTOR,PARTICLETYPE>,
-      apply_gravity<T,PARTICLETYPE>
-    >();
+        couple_lattice_to_particles<T, DESCRIPTOR, PARTICLETYPE>,
+        apply_gravity<T, PARTICLETYPE>>();
 
     // Calculate and apply contact forces
     processContacts<T, PARTICLETYPE, PARTICLECONTACTTYPE, WALLCONTACTTYPE, ContactProperties<T, 1>>(
@@ -361,7 +366,7 @@ int main(int argc, char* argv[])
         superGeometry, contactBoxResolutionPerDirection);
 
     // Solve equations of motion
-    particleManager.execute<process_dynamics<T,PARTICLETYPE>>();
+    particleManager.execute<process_dynamics<T, PARTICLETYPE>>();
 
     // Couple particles to lattice (with contact detection)
     coupleResolvedParticlesToLattice<T, DESCRIPTOR, PARTICLETYPE, PARTICLECONTACTTYPE, WALLCONTACTTYPE>(
@@ -373,18 +378,23 @@ int main(int argc, char* argv[])
     // Collide and stream
     sLattice.collideAndStream();
   }
+  // Run Gnuplot and stop timer
+  // if (singleton::mpi().getRank() == 0)
+  // {
+  //   if (!system(NULL))
+  //   {
+  //     exit(EXIT_FAILURE);
+  //   }
+  //   int ret = system("gnuplot dkt.p");
+  //   if (ret == -1)
+  //   {
+  //     clout << "Writing Gnuplot failed!" << std::endl;
+  //   }
+  // }
 
-  // Run Gnuplot
-  if (singleton::mpi().getRank() == 0) {
-    if (!system(NULL)) {
-      exit (EXIT_FAILURE);
-    }
-    int ret = system("gnuplot dkt.p");
-    if (ret == -1) {
-      clout << "Writing Gnuplot failed!" << std::endl;
-    }
+  if (singleton::mpi().getRank() == 0)
+  {
+    timer.stop();
+    timer.printSummary();
   }
-
-  timer.stop();
-  timer.printSummary();
 }
