@@ -173,6 +173,7 @@ void getResults(SuperLattice<T, DESCRIPTOR> &sLattice,
   OstreamManager clout(std::cout, "getResults");
 
 #ifdef WriteVTK
+  std::cout << "Write VTK ..." << std::endl;
   SuperVTMwriter2D<T> vtkWriter("sedimentation");
   SuperLatticePhysVelocity2D<T, DESCRIPTOR> velocity(sLattice, converter);
   SuperLatticePhysPressure2D<T, DESCRIPTOR> pressure(sLattice, converter);
@@ -334,13 +335,12 @@ int main(int argc, char *argv[])
   // Check ParticleSystem
   particleSystem.checkForErrors();
 
-  // Set contact material
+  // Set contact material (Not worth using MPI, only two particles)
   for (std::size_t iP = 0; iP < particleSystem.size(); ++iP)
   {
     auto particle = particleSystem.get(iP);
     setContactMaterial(particle, particleContactMaterial);
   }
-
   /// === 5th Step: Definition of Initial and Boundary Conditions ===
   setBoundaryValues(sLattice, converter, superGeometry);
 
@@ -351,7 +351,10 @@ int main(int argc, char *argv[])
     communicator.exchangeRequests();
   }
 
-  clout << "MaxIT: " << converter.getLatticeTime(maxPhysT) << std::endl;
+  if (singleton::mpi().getRank() == 0)
+  {
+    clout << "MaxIT: " << converter.getLatticeTime(maxPhysT) << std::endl;
+  }
   for (std::size_t iT = 0; iT < converter.getLatticeTime(maxPhysT) + 10; ++iT)
   {
 
@@ -378,7 +381,7 @@ int main(int argc, char *argv[])
     // Collide and stream
     sLattice.collideAndStream();
   }
-  // Run Gnuplot and stop timer
+  // //Run Gnuplot Breaks but not important for now
   // if (singleton::mpi().getRank() == 0)
   // {
   //   if (!system(NULL))
