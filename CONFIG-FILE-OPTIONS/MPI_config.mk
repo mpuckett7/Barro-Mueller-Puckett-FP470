@@ -9,7 +9,7 @@
 # Compiler to use for C++ files, change to `mpic++` when using OpenMPI and GCC
 CXX             := mpic++
 # Compiler to use for C files (used for emebedded dependencies)
-CC              := mpic
+CC              := mpicc
 
 # Suggested optimized build flags for GCC, consult `config/` for further examples
 CXXFLAGS        := -O3 -Wall -march=native -mtune=native
