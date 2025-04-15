@@ -5,8 +5,7 @@
 
 cd ../..
 cd openLB_original/examples/laminar/cylinder3d
-make clean
+
 make
 
-module load mpi
 salloc -Qn MPI_NUM_TASKS mpirun ./cylinder3d

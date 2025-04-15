@@ -5,8 +5,8 @@
 
 cd ../../
 cd OpenLB/examples/laminar/cylinder3d
-make clean
+
 make
 
 module load mpi
-mpirun ./cylinder3d
+salloc -Qn 4 MPI_NUM_TASKS mpirun ./cylinder3d

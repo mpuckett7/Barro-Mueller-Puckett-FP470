@@ -5,8 +5,7 @@
 
 cd ../..
 cd openLB_original/examples/particles/dkt2d
-make clean
+
 make
 
-module load mpi
 salloc -Qn MPI_NUM_TASKS mpirun ./dkt2d

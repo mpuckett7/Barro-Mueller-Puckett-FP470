@@ -6,5 +6,6 @@
 cd ../../
 cd openLB_original/examples/particles/bifurcation3d/eulerLagrange
 
-module load mpi
-mpirun ./bifurcation3d
+make
+
+salloc -Qn MPI_NUM_TASKS mpirun ./bifurcation3d
