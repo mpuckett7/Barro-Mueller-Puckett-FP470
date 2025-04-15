@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<VTKFile type="ImageData" version="0.1" byte_order="LittleEndian" compressor="vtkZLibDataCompressor">
+<ImageData WholeExtent="-1 24 -1 17 -1 18" Origin="-0.00605101 -0.00815698 -0.0257535" Spacing="0.00105246 0.00105246 0.00105246">
+<Piece Extent="-1 24 -1 17 -1 18">
+<PointData>
+<DataArray type="Float32" Name="density" NumberOfComponents="1" format="binary" encoding="base64">
+AQAAAGCaAABgmgAAgQQAAA==eJztm82R2zAMhV0K7rmlAbAUdpGrC0xRibOLMSVREkngwaKCw5u98ZuHX0ryPh5PfoRCoVAoFAqFQg/6q/T9F8l5MbKDn+AE5yVin7oOhUJ6EX/1qwcjT854fjPQ8Xr+8/Hr94+f+Lx4cL5iFpyr5uftCc8hjrtIKKRVYq9dh50/bwaOQyxzFMtZesFyyIGzjFlwrpYfWnjCMLaesBxi/7uIB0t4HpzQNfPzOj+xz3MwsleXjLnnKLHPXki8vhsE53/kEH/qfjD/Pb5kZfbZp5IvNCd03fy8zs+MrbfE+P5ZMubfp+TA2Xqx59RjZs/Z5n9uP1758aw3qrLsOXUWhrNl4TglKwMZIZ3Q+SHGv78WBrJ/tox55xvxvfZcPWb2nHrM5vXjlR+vetv3ZM+p5wnDoY0vDKf0lTn29lVFjN3b5fmoe6IwYp9qvdhy9r3YchLv7Z7gXCE/XvUmnuosW85+/Ow5Er/M993b5MS5i9D5kfOR9ZYYf78mxu9TYp/5Vo8XhlP3YsvZ3z3BuUJ+6NCTHefYky2Hdlm2nJKVFzx7To2XQIxa3jw4d1CZnww+H1VvwkD2zz5jvjlK7LMXEh/dDYLzaY5XHXjV9bknO85xnmw5wsqbGNpzJIbCyxy/f7uiyvxk4PnI33GlzfmYuYN+PiX226f7M9SOc+wlOJ/meNVBYr97yLEnG845y45Tsjy/12fGftes+ctAxp1UxkuEOh91TxQGsn+OGXPNUWKfvZD4bFYH55Mcrzp4OnLOY2fDOWfZcYSV2f99/F2/o8+sMj+lEPlA1Zt4QPdPqnqYc46ee7HhnHvRc9pipucc19h8fjzroC12Nv1z7knPaWPZcM5ZdpySlfkz39EziHEnlbEqZZ0P5Ptr8YDsH+L77NM2L/PsubaY6TltMZvHj1d+vOrNq3/E0zlLzylZ3s/1eePPlrP2lzn29mi8LONWno+6JwoD2T9tjHnmaJsXHYfYZ8+1x2wOjlfcno4cj3rri52O014Peo6w8mEMbTgSQ+F94ju6CMG5i2rxsozbfv7n6p82hu+8JriXL05ScNpmtY7THrM5OL1x86oDr7oe5fTFTsehZpaOU7I8v9dnjr19VUk9rONlFbfyfNQ9URjI/mln6Ocoes8R9++fkVpI3LMTgqPhjNTBCGekrvt6R9+nnvcDj/diwsqnMdRzynzlKhPzf2BrZubxO+//oHWs1rI6H3VPlHy39g8pfFx1n/Z66vPy9tPrqc9LcDSckToY9YPtnfE+pYE+7WWMscY5fSwdp2Rl3v8N8UgN9DBF1py7aC9epazOR90T287X1RzxdfepxBjnZcxT4t5nuWWOWj1pOF5+evpojNNfB6OcntyM15v0gk//9DDEUx9rfL4Jy/u5PleZkk89Z4/5ZmOe62eX1MM6XuvYWeTjbGfTYI7EQ+932l5WOvWgn6PEfvu0z0u/p3EvS08tXsZ2aZ8fLSe5xK1vp2o4+HrzvR/0zIKxetC958vNMRxjlDEU3pb53tktvTnKzPyJnf0HnoKyog==
+</DataArray>
+<DataArray type="Float32" Name="physField" NumberOfComponents="3" format="binary" encoding="base64">
+AQAAACDPAQAgzwEAigAAAA==eJztwTEBAAAAwqD1T20ND6AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAFwPPLwAB
+</DataArray>
+</PointData>
+</Piece>
+</ImageData>
+</VTKFile>

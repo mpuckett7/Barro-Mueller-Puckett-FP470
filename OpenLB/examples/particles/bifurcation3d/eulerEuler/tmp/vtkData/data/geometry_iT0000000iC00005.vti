@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<VTKFile type="ImageData" version="0.1" byte_order="LittleEndian" compressor="vtkZLibDataCompressor">
+<ImageData WholeExtent="-1 10 -1 18 -1 15" Origin="-0.0102609 -0.00920944 -0.00680917" Spacing="0.00105246 0.00105246 0.00105246">
+<Piece Extent="-1 10 -1 18 -1 15">
+<PointData>
+<DataArray type="Float32" Name="geometry" NumberOfComponents="1" format="binary" encoding="base64">
+AQAAAMA/AADAPwAA5QEAAA==eJztlkFuBSEMQ7lZfbQevYtqftGUECfAEAYsedUX6RNspikNFxz8ZULfX79mZy6encl5ZqaV12am8YPOa+GZbFjYizdlzsK+QUi2syKZduS5L08eIvex1rFl3geSd/W9Imt+zP1luahCMp3h3y6V2W59FGam9rEw80be1V8rL6ipvxp78SsLiT9rauvvU9/HaPmvfYNn8Sv2ncocSC7nVxaS6bzFXVbmWt9nbaZ7v3D4qH139bfGJpKJLCT+rMm+z9b3OXIfPzOL8lH6bnmfmfff1V+NiyoUXJG4S2Gu9b60mSF9xOGj9p3NG51phoksCBbk3edb+/iZWZR/pO8Eb8kD8/7TmWaYyIJgQd599ujvo33E4Xvwo77vTN5c/ZW4qELFBaldhM7XOhyqj+D4fGYH3rKf+x33ygObNzXT97+XmMhCxQW17vOtfdzNw/tO5IHpu6u/JS6qoPgmapfQeekOeufBk7fjvrbeF8uzeatmmsx9WEHxTT322Xq/+czsbB73v6/e/5+7+lvIfkiBcCZ6l9B5z30d72FXfyszYqYN2X9cSPrvAOFM1n32vq/jPez9XtdmduhvaR+W/4dPf4+ftvsbzHqWmN9xY8RzZrxln7Pv9ngPu77B+Mv0mP7+AIJSTwg=
+</DataArray>
+</PointData>
+</Piece>
+</ImageData>
+</VTKFile>

@@ -7,7 +7,7 @@
 # DO NOT CHANGE THE NAME OF config.mk, only replace the contents
 
 # Compiler to use for C++ files, change to `mpic++` when using OpenMPI and GCC
-CXX             := gcc++
+CXX             := g++
 # Compiler to use for C files (used for emebedded dependencies)
 CC              := gcc
 

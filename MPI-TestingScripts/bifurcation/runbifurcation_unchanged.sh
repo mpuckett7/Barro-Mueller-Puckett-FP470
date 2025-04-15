@@ -6,4 +6,4 @@
 #SBATCH --ntasks=MPI_NUM_TASKS
 
 module load mpi
-salloc -Qn MPI_NUM_TASKS mpirun ./bifurcation3d
+mpirun ./bifurcation3d

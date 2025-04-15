@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<VTKFile type="ImageData" version="0.1" byte_order="LittleEndian" compressor="vtkZLibDataCompressor">
+<ImageData WholeExtent="-1 11 -1 21 -1 12" Origin="-0.0113133 -0.0102619 0.030027" Spacing="0.00105246 0.00105246 0.00105246">
+<Piece Extent="-1 11 -1 21 -1 12">
+<PointData>
+<DataArray type="Float32" Name="density" NumberOfComponents="1" format="binary" encoding="base64">
+AQAAAGhBAABoQQAAawEAAA==eJzt2T0SwiAQhuEchd7OC4Sj5Ba2HtBD6YxFjAlh+cgPkLeg208M7D6jk6579t3my3/W8Lditb5/vG7335VSu5zxq7XzjK1+mhlM9WPGvseYse9BJveslTtVe0fpUXsuPG/W+YnNdGy2a1hYFc440Td3cd+UM1DOGquwqgar7L093cM2Q/os2Ocgz4OSM8oZqO60btUQ7NnwnLoVr8725opW2fs0r0exKj2DVdtatZxNn2usCt9PilXO1HfzPeK/k461yvYc+bOtZo74f4pVWFWTVS56R8ufvz5Leb1zhFUlZ5yQUdxR9slxJ/V/vf37tWWVT7TBCZk919IzxWotVsXvKP9OU3vHPnflu0NGv1P7Xu1Y9fU83ak1D7Bqv97BqvYyWBWf6zGvuXC2UVe0ygk96vv93x2SwSqswqoa3h2SwSqswiqsajuDVViFVVhVQwarsAqrsKqGDFZhFVZhVQ0ZrCrRqjdtNTTi
+</DataArray>
+<DataArray type="Float32" Name="physField" NumberOfComponents="3" format="binary" encoding="base64">
+AQAAADjEAAA4xAAASAAAAA==eJztwQENAAAAwqD3T20ON6AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADgzwDEOAAB
+</DataArray>
+</PointData>
+</Piece>
+</ImageData>
+</VTKFile>

@@ -1,32 +1,18 @@
 # OpenLB build configuration
 #
-# This file sets up the necessary build flags for compiling OpenLB with
-# the GNU C++ compiler and sequential execution. For more complex setups
-# edit this file or consult the example configs provided in `config/`.
-#
-# Basic usage:
-#  - Edit variables to fit desired configuration
-#  - Run `make clean; make` to clean up any previous artifacts and compile the dependencies
-#  - Switch to example directory, e.g. `examples/laminar/poiseuille2d`
-#  - Run `make`
-#  - Start the simulation using `./poiseuille2d`
+# THIS IS THE MPI CONFIG FILE BUILT FOR CS470 Final Project
+# TO USE: Copy contents to the file named "config.mk" in
+# ../openLB_original and ../OpenLB
 
-# Parallelization mode, must be one of: OFF, MPI, OMP, HYBRID
-# Note that for MPI and HYBRID the compiler also needs to be adapted.
-# See e.g. `config/cpu_gcc_openmpi.mk`
-PARALLEL_MODE   := MPI
-
-# optional MPI and OpenMP flags
-MPIFLAGS        :=
-OMPFLAGS        := -fopenmp
+# DO NOT CHANGE THE NAME OF config.mk, only replace the contents
 
 # Compiler to use for C++ files, change to `mpic++` when using OpenMPI and GCC
 CXX             := mpic++
 # Compiler to use for C files (used for emebedded dependencies)
-CC              := mpicc
+CC              := mpic
 
 # Suggested optimized build flags for GCC, consult `config/` for further examples
-CXXFLAGS        += -O3 -Wall -march=native -mtune=native
+CXXFLAGS        := -O3 -Wall -march=native -mtune=native
 # Uncomment to add debug symbols and enable runtime asserts
 #CXXFLAGS        += -g -DOLB_DEBUG
 
@@ -39,6 +25,15 @@ CXXFLAGS        += -std=c++17
 
 # optional linker flags
 LDFLAGS         :=
+
+# Parallelization mode, must be one of: OFF, MPI, OMP, HYBRID
+# Note that for MPI and HYBRID the compiler also needs to be adapted.
+# See e.g. `config/cpu_gcc_openmpi.mk`
+PARALLEL_MODE   := MPI
+
+# optional MPI and OpenMP flags
+MPIFLAGS        := 
+OMPFLAGS        := -fopenmp
 
 # Options: CPU_SISD, CPU_SIMD, GPU_CUDA
 # Both CPU_SIMD and GPU_CUDA require system-specific adjustment of compiler flags.

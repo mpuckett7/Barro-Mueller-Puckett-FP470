@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<VTKFile type="ImageData" version="0.1" byte_order="LittleEndian" compressor="vtkZLibDataCompressor">
+<ImageData WholeExtent="-1 11 -1 18 -1 15" Origin="0.000263766 -0.00920944 -0.00680917" Spacing="0.00105246 0.00105246 0.00105246">
+<Piece Extent="-1 11 -1 18 -1 15">
+<PointData>
+<DataArray type="Float32" Name="density" NumberOfComponents="1" format="binary" encoding="base64">
+AQAAABBFAAAQRQAA9AIAAA==eJztWEuW3CAQ66N4n10uYI7CLWbbB8yhkskMMTbUR4K2cYeF3utFqTEqqQx+PJ7rYzgsfxDA2vj926rfaj9+/fj5Cfv/479aHyfs/t/m1NfQOeEv/m8OoxvTn9xne57fn8Hpt5pXo7P+HZH082qQar/6hPZmnGyXa8gceQ2ZU+77NRzm2Z4kB9WN7Y+sBepP/zzIc+DNwpGPckYEokHSzDt7y9709U56HsSjdZ/ZnPoaMkfOW18O82yMBnJvXjND6jzUn/55kOcgkDlCOaMh6Zd08NZ6Zi/aU7n+2pwuBKf05DgcZj+s1vpaerbQu0zixeI58RwsZI4Qzmg4ahCNelRrtKdy/fU5lXNQ5+jPdS2H2Q+jtb2W7kv2TNFyx9j8zeWoZz7PRq5BQi+t0Z7q9X18bXu65NT3fF8OowGjtW8t2ZfoXSb3M3vHiLt1uRydld3eyDXI0UtrtKe2t/tkW/d0ybHXuBeH0YDR2reW7Ev2TNFyx9j7m8vR1blmke8hRw+t0Z7a9e2+9nl6z5H3fE8OowGjtX+tui/R+1zuZ/aOEYt1uRxdnWsGuQZHtGqd/hvp6SuzvUBrfHHCN8e3xn04iAa5bszcQXvq57W/f6QctH6DvOs8kGZBbT92vpHZcU22A5Gf6M7B+3JQ3Zj+9JohLWeKul+5d+rV2UYh7UPaj51vtDfnZtvvs4k23bj+5D5DzyE+f5acYw5a7hh3nwfaLDjux5fvfbbt3vDemdkeGdq7Vu8p1lfu/SPlQPomtqx4hsIA+UaQ9PPMg7zWmr0p20hPZ7bfDSnbGGfzDrYO+v6RciCdDaRsaxm62zywZkFcS609sze6aycmciCZ3nNSLlvuGNo3MSnbWobuNA+SftY8CCtyNmB7OjHxibYzhd9z2NlgWfVv61puRsi49RzHfWh7wrTe7n9zFkycg/bvFDp3q0Hep+HiWfBc83OP//tHWDd9anva19k6zzvCxLloP1NY38dr80CbBW3z4DdDMWgr
+</DataArray>
+<DataArray type="Float32" Name="physField" NumberOfComponents="3" format="binary" encoding="base64">
+AQAAADDPAAAwzwAASgAAAA==eJztwTEBAAAAwqD1T20ND6AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB4NM8wAAE=
+</DataArray>
+</PointData>
+</Piece>
+</ImageData>
+</VTKFile>
