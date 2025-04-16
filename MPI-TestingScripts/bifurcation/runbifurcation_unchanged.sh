@@ -4,6 +4,9 @@
 #SBATCH --ntasks=MPI_NUM_TASKS
 
 cd ../../
+
+# make clean; make
+
 cd openLB_original/examples/particles/bifurcation3d/eulerLagrange
 
 make

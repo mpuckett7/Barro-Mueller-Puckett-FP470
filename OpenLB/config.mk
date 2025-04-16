@@ -1,6 +1,6 @@
 # OpenLB build configuration
 #
-# THIS IS THE MPI CONFIG FILE BUILT FOR CS470 Final Project
+# THIS IS THE OPENMP CONFIG FILE BUILT FOR CS470 Final Project
 # TO USE: Copy contents to the file named "config.mk" in
 # ../openLB_original and ../OpenLB
 
