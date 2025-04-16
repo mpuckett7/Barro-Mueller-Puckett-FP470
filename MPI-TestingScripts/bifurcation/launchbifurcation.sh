@@ -5,10 +5,6 @@
 
 module load mpi
 
-# for n in 1 2 4 8 16 32 64; do
-#     sed -e "s/MPI_NUM_TASKS/$n/g" runbifurcation_unchanged.sh | sbatch
-# done
-
-for n in 1 2 4 8 16 32 64; do
+for n in 1 2 4 8 16 32; do
     sed -e "s/MPI_NUM_TASKS/$n/g" runbifurcation_changed.sh | sbatch
 done
