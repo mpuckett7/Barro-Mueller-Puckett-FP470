@@ -245,7 +245,7 @@ public:
   void set(CellID iCell, bool state, bool overlap) override
   {
     /// Only unmask cells that actually do something
-    if constexpr (!std::is_same_v<DYNAMICS,NoDynamics<T,DESCRIPTOR>>) {
+    if constexpr (!std::is_same_v<DYNAMICS,NoDynamics<T,DESCRIPTOR>>) { 
       if (!overlap) {
         _mask->set(iCell, state);
       }
@@ -332,10 +332,14 @@ public:
       #ifdef PARALLEL_MODE_OMP
       #pragma omp parallel for schedule(static) firstprivate(cell)
       #endif
-      for (CellID iCell : _cells) {
-        cell.setCellId(iCell);
+      for (int i = 0; i < _cells.size(); i++) {
+        cell.setCellId(_cells[i]);
         OPERATOR().apply(cell);
       }
+      // for (CellID iCell : _cells) {
+      //   cell.setCellId(iCell);
+      //   OPERATOR().apply(cell);
+      // }
     }
   }
 
@@ -382,10 +386,14 @@ public:
       #ifdef PARALLEL_MODE_OMP
       #pragma omp parallel for schedule(static) firstprivate(cell)
       #endif
-      for (CellID iCell : _cells) {
-        cell.setCellId(iCell);
+      for (int i = 0; i < _cells.size(); i++) {
+        cell.setCellId(_cells[i]);
         OPERATOR().apply(cell, *_parameters);
       }
+      // for (CellID iCell : _cells) {
+      //   cell.setCellId(iCell);
+      //   OPERATOR().apply(cell, *_parameters);
+      // }
     }
   }
 
