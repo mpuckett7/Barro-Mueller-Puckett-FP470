@@ -74,529 +74,329 @@ make[1]: Leaving directory '/nfs/home/pucketmg/Barro-Mueller-Puckett-FP470/OpenL
 [prepareLattice] Prepare Lattice ... OK
 [prepareParticles] Prepare Particles ...
 [SuperParticleSystem] ---SuperParticleSystem---
-[SuperParticleSystem:0[SuperParticleSystem:1] BlockParticleSystem 0 (1,0): nop=0
-[SuperParticleSystem:] BlockParticleSystem 1 (0,0): nop=0
-[SuperParticleSystem:0] BlockParticleSystem 5 (0,1): nop=0
+[SuperParticleSystem:0] BlockParticleSystem 1 (0,0): nop=0
+[[SuperParticleSystem:1] BlockParticleSystem 0 (1,0): nop=0
+[SuperParticleSystem:1] BlockParticleSystem 2 (1,1): nop=0
+[SuperParticleSystemSuperParticleSystem:0] BlockParticleSystem 5 (0,1): nop=0
 [SuperParticleSystem:0] BlockParticleSystem 6 (0,2): nop=0
-[SuperParticleSystem:0] 1] BlockParticleSystem 2 (1,1): nop=0
-[SuperParticleSystem:1] BlockParticleSystem 3 (1,2): nop=0
-[SuperParticleSystem:1] BlockParticleSystem 4 (1,3): nop=0
-BlockParticleSystem 7 (0,3): nop=0
+[SuperParticleSystem:0] BlockParticleSystem 7 (0,3): nop=0
 [SuperParticleSystem:0] BlockParticleSystem 8 (0,4): nop=0
-[SuperParticleSystem:1] BlockParticleSystem 9 (1,4): nop=0
-[[SuperParticleSystem:0] BlockParticleSystem 11 (0,5): nop=0
-SuperParticleSystem:1] BlockParticleSystem 10 (1,5): nop=1000
+[SuperParticleSystem:0] :1] BlockParticleSystem 3 (1,2): nop=0
+[SuperParticleSystem:1] BlockParticleSystem 4 (1,3): nop=0
+[SuperParticleSystem:1] BlockParticleSystem 11 (0,5): nop=0
+BlockParticleSystem 9 (1,4): nop=0
+[SuperParticleSystem:1] BlockParticleSystem 10 (1,5): nop=1000
 [SuperParticleSystem:1] BlockParticleSystem 12 (1,6): nop=0
 [SuperParticleSystem:1] BlockParticleSystem 13 (1,7): nop=0
 [SuperParticleSystem] -------------------------
 [prepareParticles] Prepare Particles ... OK
-[getResults] N=19; maxTimeSteps(fluid)=3524; noOfCuboid=14; Re=50; noOfParticles=1000; maxTimeSteps(particle)=14095; St=0.50945
-[Timer] step=0; percent=0; passedTime=0.313; remTime=1102.7; MLUPs=0
-[LatticeStatistics] step=0; t=0; uMax=1.49167e-154; avEnergy=0; avRho=1
-[SuperPlaneIntegralFluxVelocity3D] regionName=inflow; regionSize[m^2]=0.000264735; volumetricFlowRate[ml/s]=0; meanVelocity[m/s]=0
-[SuperPlaneIntegralFluxPressure3D] regionName=inflow; regionSize[m^2]=0.000264735; force[N]=0; meanPressure[Pa]=0
-[SuperPlaneIntegralFluxVelocity3D] regionName=outflow0; regionSize[m^2]=0.000152859; volumetricFlowRate[ml/s]=0; meanVelocity[m/s]=0
-[SuperPlaneIntegralFluxPressure3D] regionName=outflow0; regionSize[m^2]=0.000152859; force[N]=0; meanPressure[Pa]=0
-[SuperPlaneIntegralFluxVelocity3D] regionName=outflow1; regionSize[m^2]=0.000155075; volumetricFlowRate[ml/s]=0; meanVelocity[m/s]=0
-[SuperPlaneIntegralFluxPressure3D] regionName=outflow1; regionSize[m^2]=0.000155075; force[N]=0; meanPressure[Pa]=0
-Warning: empty cb range [0:0], adjusting to [-1:1]
-[Timer] step=141; percent=4.00114; passedTime=1.675; remTime=40.1881; MLUPs=4.43042
-[LatticeStatistics] step=141; t=0.200073; uMax=0.000186813; avEnergy=1.29567e-09; avRho=0.999952
-[SuperPlaneIntegralFluxVelocity3D] regionName=inflow; regionSize[m^2]=0.000264735; volumetricFlowRate[ml/s]=0; meanVelocity[m/s]=0
-[SuperPlaneIntegralFluxPressure3D] regionName=inflow; regionSize[m^2]=0.000264735; force[N]=0; meanPressure[Pa]=0
-[SuperPlaneIntegralFluxVelocity3D] regionName=outflow0; regionSize[m^2]=0.000152859; volumetricFlowRate[ml/s]=-0.0134339; meanVelocity[m/s]=-8.78839e-05
-[SuperPlaneIntegralFluxPressure3D] regionName=outflow0; regionSize[m^2]=0.000152859; force[N]=-6.9194e-09; meanPressure[Pa]=4.52664e-05
-[SuperPlaneIntegralFluxVelocity3D] regionName=outflow1; regionSize[m^2]=0.000155075; volumetricFlowRate[ml/s]=-0.0128656; meanVelocity[m/s]=-8.29637e-05
-[SuperPlaneIntegralFluxPressure3D] regionName=outflow1; regionSize[m^2]=0.000155075; force[N]=-6.71355e-09; meanPressure[Pa]=4.32924e-05
-[Timer] step=282; percent=8.00227; passedTime=2.946; remTime=33.8686; MLUPs=4.75137
-[LatticeStatistics] step=282; t=0.400146; uMax=0.000749327; avEnergy=4.15663e-08; avRho=0.999526
-[SuperPlaneIntegralFluxVelocity3D] regionName=inflow; regionSize[m^2]=0.000264735; volumetricFlowRate[ml/s]=0.0172923; meanVelocity[m/s]=6.53192e-05
-[SuperPlaneIntegralFluxPressure3D] regionName=inflow; regionSize[m^2]=0.000264735; force[N]=-4.20413e-09; meanPressure[Pa]=1.58805e-05
-[SuperPlaneIntegralFluxVelocity3D] regionName=outflow0; regionSize[m^2]=0.000152859; volumetricFlowRate[ml/s]=-0.0542533; meanVelocity[m/s]=-0.000354923
-[SuperPlaneIntegralFluxPressure3D] regionName=outflow0; regionSize[m^2]=0.000152859; force[N]=-3.04398e-08; meanPressure[Pa]=0.000199136
-[SuperPlaneIntegralFluxVelocity3D] regionName=outflow1; regionSize[m^2]=0.000155075; volumetricFlowRate[ml/s]=-0.052006; meanVelocity[m/s]=-0.000335361
-[SuperPlaneIntegralFluxPressure3D] regionName=outflow1; regionSize[m^2]=0.000155075; force[N]=-2.99468e-08; meanPressure[Pa]=0.000193112
-[Timer] step=423; percent=12.0034; passedTime=4.512; remTime=33.0773; MLUPs=3.85328
-[LatticeStatistics] step=423; t=0.600219; uMax=0.00294289; avEnergy=5.18403e-07; avRho=0.99842
-[SuperPlaneIntegralFluxVelocity3D] regionName=inflow; regionSize[m^2]=0.000264735; volumetricFlowRate[ml/s]=0.148904; meanVelocity[m/s]=0.000562464
-[SuperPlaneIntegralFluxPressure3D] regionName=inflow; regionSize[m^2]=0.000264735; force[N]=-2.77639e-09; meanPressure[Pa]=1.04875e-05
-[SuperPlaneIntegralFluxVelocity3D] regionName=outflow0; regionSize[m^2]=0.000152859; volumetricFlowRate[ml/s]=-0.21137; meanVelocity[m/s]=-0.00138277
-[SuperPlaneIntegralFluxPressure3D] regionName=outflow0; regionSize[m^2]=0.000152859; force[N]=-1.1968e-07; meanPressure[Pa]=0.000782945
-[SuperPlaneIntegralFluxVelocity3D] regionName=outflow1; regionSize[m^2]=0.000155075; volumetricFlowRate[ml/s]=-0.202883; meanVelocity[m/s]=-0.00130829
-[SuperPlaneIntegralFluxPressure3D] regionName=outflow1; regionSize[m^2]=0.000155075; force[N]=-1.1795e-07; meanPressure[Pa]=0.0007606
-[Timer] step=564; percent=16.0045; passedTime=6.205; remTime=32.5652; MLUPs=3.56212
-[LatticeStatistics] step=564; t=0.800292; uMax=0.00456395; avEnergy=2.84757e-06; avRho=0.996888
-[SuperPlaneIntegralFluxVelocity3D] regionName=inflow; regionSize[m^2]=0.000264735; volumetricFlowRate[ml/s]=0.383358; meanVelocity[m/s]=0.00144808
-[SuperPlaneIntegralFluxPressure3D] regionName=inflow; regionSize[m^2]=0.000264735; force[N]=-7.91423e-09; meanPressure[Pa]=2.98949e-05
-[SuperPlaneIntegralFluxVelocity3D] regionName=outflow0; regionSize[m^2]=0.000152859; volumetricFlowRate[ml/s]=-0.335957; meanVelocity[m/s]=-0.00219782
-[SuperPlaneIntegralFluxPressure3D] regionName=outflow0; regionSize[m^2]=0.000152859; force[N]=-1.86853e-07; meanPressure[Pa]=0.00122238
-[SuperPlaneIntegralFluxVelocity3D] regionName=outflow1; regionSize[m^2]=0.000155075; volumetricFlowRate[ml/s]=-0.322906; meanVelocity[m/s]=-0.00208226
-[SuperPlaneIntegralFluxPressure3D] regionName=outflow1; regionSize[m^2]=0.000155075; force[N]=-1.86692e-07; meanPressure[Pa]=0.00120388
-[Timer] step=705; percent=20.0057; passedTime=7.687; remTime=30.7371; MLUPs=4.07443
-[LatticeStatistics] step=705; t=1.00037; uMax=0.00874; avEnergy=9.48295e-06; avRho=0.995574
-[SuperPlaneIntegralFluxVelocity3D] regionName=inflow; regionSize[m^2]=0.000264735; volumetricFlowRate[ml/s]=0.979278; meanVelocity[m/s]=0.00369909
-[SuperPlaneIntegralFluxPressure3D] regionName=inflow; regionSize[m^2]=0.000264735; force[N]=-1.58998e-08; meanPressure[Pa]=6.00592e-05
-[SuperPlaneIntegralFluxVelocity3D] regionName=outflow0; regionSize[m^2]=0.000152859; volumetricFlowRate[ml/s]=-0.621903; meanVelocity[m/s]=-0.00406847
-[SuperPlaneIntegralFluxPressure3D] regionName=outflow0; regionSize[m^2]=0.000152859; force[N]=-3.09699e-07; meanPressure[Pa]=0.00202604
-[SuperPlaneIntegralFluxVelocity3D] regionName=outflow1; regionSize[m^2]=0.000155075; volumetricFlowRate[ml/s]=-0.595727; meanVelocity[m/s]=-0.00384155
-[SuperPlaneIntegralFluxPressure3D] regionName=outflow1; regionSize[m^2]=0.000155075; force[N]=-3.05498e-07; meanPressure[Pa]=0.00197
-[Timer] step=846; percent=24.0068; passedTime=9.179; remTime=29.056; MLUPs=4.04439
-[LatticeStatistics] step=846; t=1.20044; uMax=0.0118772; avEnergy=2.3572e-05; avRho=0.994398
-[SuperPlaneIntegralFluxVelocity3D] regionName=inflow; regionSize[m^2]=0.000264735; volumetricFlowRate[ml/s]=1.42744; meanVelocity[m/s]=0.00539198
-[SuperPlaneIntegralFluxPressure3D] regionName=inflow; regionSize[m^2]=0.000264735; force[N]=-9.6964e-09; meanPressure[Pa]=3.66269e-05
-[SuperPlaneIntegralFluxVelocity3D] regionName=outflow0; regionSize[m^2]=0.000152859; volumetricFlowRate[ml/s]=-0.822553; meanVelocity[m/s]=-0.00538111
-[SuperPlaneIntegralFluxPressure3D] regionName=outflow0; regionSize[m^2]=0.000152859; force[N]=-3.68473e-07; meanPressure[Pa]=0.00241054
-[SuperPlaneIntegralFluxVelocity3D] regionName=outflow1; regionSize[m^2]=0.000155075; volumetricFlowRate[ml/s]=-0.78971; meanVelocity[m/s]=-0.00509245
-[SuperPlaneIntegralFluxPressure3D] regionName=outflow1; regionSize[m^2]=0.000155075; force[N]=-3.66587e-07; meanPressure[Pa]=0.00236394
-[Timer] step=987; percent=28.0079; passedTime=10.633; remTime=27.3312; MLUPs=4.15009
-[LatticeStatistics] step=987; t=1.40051; uMax=0.0176281; avEnergy=4.48706e-05; avRho=0.993479
-[SuperPlaneIntegralFluxVelocity3D] regionName=inflow; regionSize[m^2]=0.000264735; volumetricFlowRate[ml/s]=2.07397; meanVelocity[m/s]=0.00783416
-[SuperPlaneIntegralFluxPressure3D] regionName=inflow; regionSize[m^2]=0.000264735; force[N]=-6.30603e-08; meanPressure[Pa]=0.000238202
-[SuperPlaneIntegralFluxVelocity3D] regionName=outflow0; regionSize[m^2]=0.000152859; volumetricFlowRate[ml/s]=-1.02763; meanVelocity[m/s]=-0.00672269
-[SuperPlaneIntegralFluxPressure3D] regionName=outflow0; regionSize[m^2]=0.000152859; force[N]=-3.67405e-07; meanPressure[Pa]=0.00240355
-[SuperPlaneIntegralFluxVelocity3D] regionName=outflow1; regionSize[m^2]=0.000155075; volumetricFlowRate[ml/s]=-0.988789; meanVelocity[m/s]=-0.00637621
-[SuperPlaneIntegralFluxPressure3D] regionName=outflow1; regionSize[m^2]=0.000155075; force[N]=-3.6599e-07; meanPressure[Pa]=0.00236009
-[Timer] step=1128; percent=32.0091; passedTime=12.078; remTime=25.655; MLUPs=4.17305
-[LatticeStatistics] step=1128; t=1.60058; uMax=0.0239587; avEnergy=7.62609e-05; avRho=0.992593
-[SuperPlaneIntegralFluxVelocity3D] regionName=inflow; regionSize[m^2]=0.000264735; volumetricFlowRate[ml/s]=2.72438; meanVelocity[m/s]=0.010291
-[SuperPlaneIntegralFluxPressure3D] regionName=inflow; regionSize[m^2]=0.000264735; force[N]=-2.1865e-08; meanPressure[Pa]=8.2592e-05
-[SuperPlaneIntegralFluxVelocity3D] regionName=outflow0; regionSize[m^2]=0.000152859; volumetricFlowRate[ml/s]=-1.45585; meanVelocity[m/s]=-0.00952409
-[SuperPlaneIntegralFluxPressure3D] regionName=outflow0; regionSize[m^2]=0.000152859; force[N]=-5.0949e-07; meanPressure[Pa]=0.00333306
-[SuperPlaneIntegralFluxVelocity3D] regionName=outflow1; regionSize[m^2]=0.000155075; volumetricFlowRate[ml/s]=-1.39831; meanVelocity[m/s]=-0.009017
-[SuperPlaneIntegralFluxPressure3D] regionName=outflow1; regionSize[m^2]=0.000155075; force[N]=-5.02632e-07; meanPressure[Pa]=0.00324122
-[Timer] step=1269; percent=36.0102; passedTime=13.513; remTime=24.0125; MLUPs=4.20797
-[LatticeStatistics] step=1269; t=1.80066; uMax=0.0287713; avEnergy=0.000118633; avRho=0.991474
-[SuperPlaneIntegralFluxVelocity3D] regionName=inflow; regionSize[m^2]=0.000264735; volumetricFlowRate[ml/s]=3.12829; meanVelocity[m/s]=0.0118167
-[SuperPlaneIntegralFluxPressure3D] regionName=inflow; regionSize[m^2]=0.000264735; force[N]=-2.44752e-08; meanPressure[Pa]=9.2452e-05
-[SuperPlaneIntegralFluxVelocity3D] regionName=outflow0; regionSize[m^2]=0.000152859; volumetricFlowRate[ml/s]=-1.71939; meanVelocity[m/s]=-0.0112482
-[SuperPlaneIntegralFluxPressure3D] regionName=outflow0; regionSize[m^2]=0.000152859; force[N]=-5.25351e-07; meanPressure[Pa]=0.00343683
-[SuperPlaneIntegralFluxVelocity3D] regionName=outflow1; regionSize[m^2]=0.000155075; volumetricFlowRate[ml/s]=-1.65454; meanVelocity[m/s]=-0.0106693
-[SuperPlaneIntegralFluxPressure3D] regionName=outflow1; regionSize[m^2]=0.000155075; force[N]=-5.22753e-07; meanPressure[Pa]=0.00337098
-[Timer] step=1410; percent=40.0114; passedTime=14.936; remTime=22.3934; MLUPs=4.2405
-[LatticeStatistics] step=1410; t=2.00073; uMax=0.0370749; avEnergy=0.000172297; avRho=0.990457
-[SuperPlaneIntegralFluxVelocity3D] regionName=inflow; regionSize[m^2]=0.000264735; volumetricFlowRate[ml/s]=4.12461; meanVelocity[m/s]=0.0155802
-[SuperPlaneIntegralFluxPressure3D] regionName=inflow; regionSize[m^2]=0.000264735; force[N]=-3.9991e-08; meanPressure[Pa]=0.000151061
-[SuperPlaneIntegralFluxVelocity3D] regionName=outflow0; regionSize[m^2]=0.000152859; volumetricFlowRate[ml/s]=-2.17914; meanVelocity[m/s]=-0.0142559
-[SuperPlaneIntegralFluxPressure3D] regionName=outflow0; regionSize[m^2]=0.000152859; force[N]=-6.44916e-07; meanPressure[Pa]=0.00421902
-[SuperPlaneIntegralFluxVelocity3D] regionName=outflow1; regionSize[m^2]=0.000155075; volumetricFlowRate[ml/s]=-2.0936; meanVelocity[m/s]=-0.0135006
-[SuperPlaneIntegralFluxPressure3D] regionName=outflow1; regionSize[m^2]=0.000155075; force[N]=-6.34638e-07; meanPressure[Pa]=0.00409247
-[Timer] step=1551; percent=44.0125; passedTime=16.244; remTime=20.6637; MLUPs=4.60981
-[LatticeStatistics] step=1551; t=2.2008; uMax=0.0432484; avEnergy=0.000242081; avRho=0.989533
-[SuperPlaneIntegralFluxVelocity3D] regionName=inflow; regionSize[m^2]=0.000264735; volumetricFlowRate[ml/s]=4.69001; meanVelocity[m/s]=0.0177159
-[SuperPlaneIntegralFluxPressure3D] regionName=inflow; regionSize[m^2]=0.000264735; force[N]=-1.82199e-08; meanPressure[Pa]=6.88232e-05
-[SuperPlaneIntegralFluxVelocity3D] regionName=outflow0; regionSize[m^2]=0.000152859; volumetricFlowRate[ml/s]=-2.44716; meanVelocity[m/s]=-0.0160092
-[SuperPlaneIntegralFluxPressure3D] regionName=outflow0; regionSize[m^2]=0.000152859; force[N]=-7.05547e-07; meanPressure[Pa]=0.00461566
-[SuperPlaneIntegralFluxVelocity3D] regionName=outflow1; regionSize[m^2]=0.000155075; volumetricFlowRate[ml/s]=-2.35155; meanVelocity[m/s]=-0.015164
-[SuperPlaneIntegralFluxPressure3D] regionName=outflow1; regionSize[m^2]=0.000155075; force[N]=-6.9898e-07; meanPressure[Pa]=0.00450738
-[Timer] step=1692; percent=48.0136; passedTime=17.536; remTime=18.987; MLUPs=4.67408
-[LatticeStatistics] step=1692; t=2.40088; uMax=0.0501568; avEnergy=0.000318734; avRho=0.988866
-[SuperPlaneIntegralFluxVelocity3D] regionName=inflow; regionSize[m^2]=0.000264735; volumetricFlowRate[ml/s]=5.45868; meanVelocity[m/s]=0.0206194
-[SuperPlaneIntegralFluxPressure3D] regionName=inflow; regionSize[m^2]=0.000264735; force[N]=-9.12374e-08; meanPressure[Pa]=0.000344637
-[SuperPlaneIntegralFluxVelocity3D] regionName=outflow0; regionSize[m^2]=0.000152859; volumetricFlowRate[ml/s]=-2.69179; meanVelocity[m/s]=-0.0176096
-[SuperPlaneIntegralFluxPressure3D] regionName=outflow0; regionSize[m^2]=0.000152859; force[N]=-6.59884e-07; meanPressure[Pa]=0.00431694
-[SuperPlaneIntegralFluxVelocity3D] regionName=outflow1; regionSize[m^2]=0.000155075; volumetricFlowRate[ml/s]=-2.58976; meanVelocity[m/s]=-0.0167001
-[SuperPlaneIntegralFluxPressure3D] regionName=outflow1; regionSize[m^2]=0.000155075; force[N]=-6.52482e-07; meanPressure[Pa]=0.00420753
-[Timer] step=1833; percent=52.0148; passedTime=18.837; remTime=17.3777; MLUPs=4.64172
-[LatticeStatistics] step=1833; t=2.60095; uMax=0.0575861; avEnergy=0.000406145; avRho=0.988476
-[SuperPlaneIntegralFluxVelocity3D] regionName=inflow; regionSize[m^2]=0.000264735; volumetricFlowRate[ml/s]=6.23959; meanVelocity[m/s]=0.0235692
-[SuperPlaneIntegralFluxPressure3D] regionName=inflow; regionSize[m^2]=0.000264735; force[N]=-4.11737e-08; meanPressure[Pa]=0.000155528
-[SuperPlaneIntegralFluxVelocity3D] regionName=outflow0; regionSize[m^2]=0.000152859; volumetricFlowRate[ml/s]=-3.14047; meanVelocity[m/s]=-0.0205448
-[SuperPlaneIntegralFluxPressure3D] regionName=outflow0; regionSize[m^2]=0.000152859; force[N]=-7.87233e-07; meanPressure[Pa]=0.00515005
-[SuperPlaneIntegralFluxVelocity3D] regionName=outflow1; regionSize[m^2]=0.000155075; volumetricFlowRate[ml/s]=-3.01652; meanVelocity[m/s]=-0.0194521
-[SuperPlaneIntegralFluxPressure3D] regionName=outflow1; regionSize[m^2]=0.000155075; force[N]=-7.74155e-07; meanPressure[Pa]=0.00499214
-[Timer] step=1974; percent=56.0159; passedTime=20.133; remTime=15.8086; MLUPs=4.65246
-[LatticeStatistics] step=1974; t=2.80102; uMax=0.0621562; avEnergy=0.000495444; avRho=0.988219
-[SuperPlaneIntegralFluxVelocity3D] regionName=inflow; regionSize[m^2]=0.000264735; volumetricFlowRate[ml/s]=6.58899; meanVelocity[m/s]=0.024889
-[SuperPlaneIntegralFluxPressure3D] regionName=inflow; regionSize[m^2]=0.000264735; force[N]=-3.60476e-08; meanPressure[Pa]=0.000136165
-[SuperPlaneIntegralFluxVelocity3D] regionName=outflow0; regionSize[m^2]=0.000152859; volumetricFlowRate[ml/s]=-3.38982; meanVelocity[m/s]=-0.022176
-[SuperPlaneIntegralFluxPressure3D] regionName=outflow0; regionSize[m^2]=0.000152859; force[N]=-7.50172e-07; meanPressure[Pa]=0.0049076
-[SuperPlaneIntegralFluxVelocity3D] regionName=outflow1; regionSize[m^2]=0.000155075; volumetricFlowRate[ml/s]=-3.26093; meanVelocity[m/s]=-0.0210281
-[SuperPlaneIntegralFluxPressure3D] regionName=outflow1; regionSize[m^2]=0.000155075; force[N]=-7.4076e-07; meanPressure[Pa]=0.00477679
-[Timer] step=2115; percent=60.017; passedTime=21.423; remTime=14.2719; MLUPs=4.6777
-[LatticeStatistics] step=2115; t=3.0011; uMax=0.0692409; avEnergy=0.000581256; avRho=0.988004
-[SuperPlaneIntegralFluxVelocity3D] regionName=inflow; regionSize[m^2]=0.000264735; volumetricFlowRate[ml/s]=7.42773; meanVelocity[m/s]=0.0280572
-[SuperPlaneIntegralFluxPressure3D] regionName=inflow; regionSize[m^2]=0.000264735; force[N]=-5.36315e-08; meanPressure[Pa]=0.000202586
-[SuperPlaneIntegralFluxVelocity3D] regionName=outflow0; regionSize[m^2]=0.000152859; volumetricFlowRate[ml/s]=-3.75403; meanVelocity[m/s]=-0.0245587
-[SuperPlaneIntegralFluxPressure3D] regionName=outflow0; regionSize[m^2]=0.000152859; force[N]=-8.09691e-07; meanPressure[Pa]=0.00529697
-[SuperPlaneIntegralFluxVelocity3D] regionName=outflow1; regionSize[m^2]=0.000155075; volumetricFlowRate[ml/s]=-3.60864; meanVelocity[m/s]=-0.0232704
-[SuperPlaneIntegralFluxPressure3D] regionName=outflow1; regionSize[m^2]=0.000155075; force[N]=-7.94345e-07; meanPressure[Pa]=0.00512234
-[Timer] step=2256; percent=64.0182; passedTime=22.713; remTime=12.766; MLUPs=4.68133
-[LatticeStatistics] step=2256; t=3.20117; uMax=0.0737973; avEnergy=0.000667621; avRho=0.987979
-[SuperPlaneIntegralFluxVelocity3D] regionName=inflow; regionSize[m^2]=0.000264735; volumetricFlowRate[ml/s]=7.81869; meanVelocity[m/s]=0.0295341
-[SuperPlaneIntegralFluxPressure3D] regionName=inflow; regionSize[m^2]=0.000264735; force[N]=-2.93388e-08; meanPressure[Pa]=0.000110823
-[SuperPlaneIntegralFluxVelocity3D] regionName=outflow0; regionSize[m^2]=0.000152859; volumetricFlowRate[ml/s]=-3.94285; meanVelocity[m/s]=-0.025794
-[SuperPlaneIntegralFluxPressure3D] regionName=outflow0; regionSize[m^2]=0.000152859; force[N]=-8.23213e-07; meanPressure[Pa]=0.00538543
-[SuperPlaneIntegralFluxVelocity3D] regionName=outflow1; regionSize[m^2]=0.000155075; volumetricFlowRate[ml/s]=-3.7905; meanVelocity[m/s]=-0.0244431
-[SuperPlaneIntegralFluxPressure3D] regionName=outflow1; regionSize[m^2]=0.000155075; force[N]=-8.10135e-07; meanPressure[Pa]=0.00522416
-[Timer] step=2397; percent=68.0193; passedTime=24.001; remTime=11.2846; MLUPs=4.68133
-[LatticeStatistics] step=2397; t=3.40124; uMax=0.077949; avEnergy=0.000741138; avRho=0.988048
-[SuperPlaneIntegralFluxVelocity3D] regionName=inflow; regionSize[m^2]=0.000264735; volumetricFlowRate[ml/s]=8.24919; meanVelocity[m/s]=0.0311602
-[SuperPlaneIntegralFluxPressure3D] regionName=inflow; regionSize[m^2]=0.000264735; force[N]=-7.77192e-08; meanPressure[Pa]=0.000293574
-[SuperPlaneIntegralFluxVelocity3D] regionName=outflow0; regionSize[m^2]=0.000152859; volumetricFlowRate[ml/s]=-4.08464; meanVelocity[m/s]=-0.0267216
-[SuperPlaneIntegralFluxPressure3D] regionName=outflow0; regionSize[m^2]=0.000152859; force[N]=-7.58129e-07; meanPressure[Pa]=0.00495965
-[SuperPlaneIntegralFluxVelocity3D] regionName=outflow1; regionSize[m^2]=0.000155075; volumetricFlowRate[ml/s]=-3.92849; meanVelocity[m/s]=-0.0253329
-[SuperPlaneIntegralFluxPressure3D] regionName=outflow1; regionSize[m^2]=0.000155075; force[N]=-7.43747e-07; meanPressure[Pa]=0.00479606
-[Timer] step=2538; percent=72.0204; passedTime=25.288; remTime=9.82426; MLUPs=4.69225
-[LatticeStatistics] step=2538; t=3.60132; uMax=0.0821582; avEnergy=0.000805979; avRho=0.988349
-[SuperPlaneIntegralFluxVelocity3D] regionName=inflow; regionSize[m^2]=0.000264735; volumetricFlowRate[ml/s]=8.67362; meanVelocity[m/s]=0.0327635
-[SuperPlaneIntegralFluxPressure3D] regionName=inflow; regionSize[m^2]=0.000264735; force[N]=-4.82646e-08; meanPressure[Pa]=0.000182313
-[SuperPlaneIntegralFluxVelocity3D] regionName=outflow0; regionSize[m^2]=0.000152859; volumetricFlowRate[ml/s]=-4.29186; meanVelocity[m/s]=-0.0280772
-[SuperPlaneIntegralFluxPressure3D] regionName=outflow0; regionSize[m^2]=0.000152859; force[N]=-8.00941e-07; meanPressure[Pa]=0.00523972
-[SuperPlaneIntegralFluxVelocity3D] regionName=outflow1; regionSize[m^2]=0.000155075; volumetricFlowRate[ml/s]=-4.12472; meanVelocity[m/s]=-0.0265983
-[SuperPlaneIntegralFluxPressure3D] regionName=outflow1; regionSize[m^2]=0.000155075; force[N]=-7.84444e-07; meanPressure[Pa]=0.00505849
-[Timer] step=2679; percent=76.0216; passedTime=26.574; remTime=8.38187; MLUPs=4.6959
-[LatticeStatistics] step=2679; t=3.80139; uMax=0.0840291; avEnergy=0.000852833; avRho=0.988882
-[SuperPlaneIntegralFluxVelocity3D] regionName=inflow; regionSize[m^2]=0.000264735; volumetricFlowRate[ml/s]=8.76397; meanVelocity[m/s]=0.0331047
-[SuperPlaneIntegralFluxPressure3D] regionName=inflow; regionSize[m^2]=0.000264735; force[N]=-4.12308e-08; meanPressure[Pa]=0.000155744
-[SuperPlaneIntegralFluxVelocity3D] regionName=outflow0; regionSize[m^2]=0.000152859; volumetricFlowRate[ml/s]=-4.38329; meanVelocity[m/s]=-0.0286753
-[SuperPlaneIntegralFluxPressure3D] regionName=outflow0; regionSize[m^2]=0.000152859; force[N]=-7.45033e-07; meanPressure[Pa]=0.00487398
-[SuperPlaneIntegralFluxVelocity3D] regionName=outflow1; regionSize[m^2]=0.000155075; volumetricFlowRate[ml/s]=-4.2155; meanVelocity[m/s]=-0.0271837
-[SuperPlaneIntegralFluxPressure3D] regionName=outflow1; regionSize[m^2]=0.000155075; force[N]=-7.29834e-07; meanPressure[Pa]=0.00470634
-[Timer] step=2820; percent=80.0227; passedTime=27.868; remTime=6.95712; MLUPs=4.66685
-[LatticeStatistics] step=2820; t=4.00146; uMax=0.0862144; avEnergy=0.000876636; avRho=0.989477
-[SuperPlaneIntegralFluxVelocity3D] regionName=inflow; regionSize[m^2]=0.000264735; volumetricFlowRate[ml/s]=8.98512; meanVelocity[m/s]=0.0339401
-[SuperPlaneIntegralFluxPressure3D] regionName=inflow; regionSize[m^2]=0.000264735; force[N]=-4.88605e-08; meanPressure[Pa]=0.000184564
-[SuperPlaneIntegralFluxVelocity3D] regionName=outflow0; regionSize[m^2]=0.000152859; volumetricFlowRate[ml/s]=-4.43787; meanVelocity[m/s]=-0.0290324
-[SuperPlaneIntegralFluxPressure3D] regionName=outflow0; regionSize[m^2]=0.000152859; force[N]=-7.12102e-07; meanPressure[Pa]=0.00465855
-[SuperPlaneIntegralFluxVelocity3D] regionName=outflow1; regionSize[m^2]=0.000155075; volumetricFlowRate[ml/s]=-4.26668; meanVelocity[m/s]=-0.0275137
-[SuperPlaneIntegralFluxPressure3D] regionName=outflow1; regionSize[m^2]=0.000155075; force[N]=-6.9549e-07; meanPressure[Pa]=0.00448487
-[Timer] step=2961; percent=84.0238; passedTime=29.155; remTime=5.54349; MLUPs=4.68497
-[LatticeStatistics] step=2961; t=4.20154; uMax=0.0868471; avEnergy=0.000881498; avRho=0.990196
-[SuperPlaneIntegralFluxVelocity3D] regionName=inflow; regionSize[m^2]=0.000264735; volumetricFlowRate[ml/s]=8.98725; meanVelocity[m/s]=0.0339481
-[SuperPlaneIntegralFluxPressure3D] regionName=inflow; regionSize[m^2]=0.000264735; force[N]=-3.70529e-08; meanPressure[Pa]=0.000139962
-[SuperPlaneIntegralFluxVelocity3D] regionName=outflow0; regionSize[m^2]=0.000152859; volumetricFlowRate[ml/s]=-4.44465; meanVelocity[m/s]=-0.0290767
-[SuperPlaneIntegralFluxPressure3D] regionName=outflow0; regionSize[m^2]=0.000152859; force[N]=-6.87736e-07; meanPressure[Pa]=0.00449914
-[SuperPlaneIntegralFluxVelocity3D] regionName=outflow1; regionSize[m^2]=0.000155075; volumetricFlowRate[ml/s]=-4.27383; meanVelocity[m/s]=-0.0275598
-[SuperPlaneIntegralFluxPressure3D] regionName=outflow1; regionSize[m^2]=0.000155075; force[N]=-6.71664e-07; meanPressure[Pa]=0.00433123
-[Timer] step=3102; percent=88.025; passedTime=30.442; remTime=4.14137; MLUPs=4.68861
-[LatticeStatistics] step=3102; t=4.40161; uMax=0.0862732; avEnergy=0.000871745; avRho=0.990565
-[SuperPlaneIntegralFluxVelocity3D] regionName=inflow; regionSize[m^2]=0.000264735; volumetricFlowRate[ml/s]=8.86654; meanVelocity[m/s]=0.0334922
-[SuperPlaneIntegralFluxPressure3D] regionName=inflow; regionSize[m^2]=0.000264735; force[N]=-3.9682e-08; meanPressure[Pa]=0.000149893
-[SuperPlaneIntegralFluxVelocity3D] regionName=outflow0; regionSize[m^2]=0.000152859; volumetricFlowRate[ml/s]=-4.4423; meanVelocity[m/s]=-0.0290613
-[SuperPlaneIntegralFluxPressure3D] regionName=outflow0; regionSize[m^2]=0.000152859; force[N]=-6.59217e-07; meanPressure[Pa]=0.00431258
-[SuperPlaneIntegralFluxVelocity3D] regionName=outflow1; regionSize[m^2]=0.000155075; volumetricFlowRate[ml/s]=-4.27133; meanVelocity[m/s]=-0.0275437
-[SuperPlaneIntegralFluxPressure3D] regionName=outflow1; regionSize[m^2]=0.000155075; force[N]=-6.42492e-07; meanPressure[Pa]=0.00414311
-[Timer] step=3243; percent=92.0261; passedTime=31.725; remTime=2.74891; MLUPs=4.70689
-[LatticeStatistics] step=3243; t=4.60168; uMax=0.0857074; avEnergy=0.000860014; avRho=0.990365
-[SuperPlaneIntegralFluxVelocity3D] regionName=inflow; regionSize[m^2]=0.000264735; volumetricFlowRate[ml/s]=8.80552; meanVelocity[m/s]=0.0332617
-[SuperPlaneIntegralFluxPressure3D] regionName=inflow; regionSize[m^2]=0.000264735; force[N]=-4.34797e-08; meanPressure[Pa]=0.000164239
-[SuperPlaneIntegralFluxVelocity3D] regionName=outflow0; regionSize[m^2]=0.000152859; volumetricFlowRate[ml/s]=-4.43637; meanVelocity[m/s]=-0.0290226
-[SuperPlaneIntegralFluxPressure3D] regionName=outflow0; regionSize[m^2]=0.000152859; force[N]=-6.70748e-07; meanPressure[Pa]=0.00438801
-[SuperPlaneIntegralFluxVelocity3D] regionName=outflow1; regionSize[m^2]=0.000155075; volumetricFlowRate[ml/s]=-4.26518; meanVelocity[m/s]=-0.027504
-[SuperPlaneIntegralFluxPressure3D] regionName=outflow1; regionSize[m^2]=0.000155075; force[N]=-6.54543e-07; meanPressure[Pa]=0.00422083
-[Timer] step=3384; percent=96.0272; passedTime=33.02; remTime=1.36608; MLUPs=4.65964
-[LatticeStatistics] step=3384; t=4.80175; uMax=0.0853657; avEnergy=0.000858104; avRho=0.989921
-[SuperPlaneIntegralFluxVelocity3D] regionName=inflow; regionSize[m^2]=0.000264735; volumetricFlowRate[ml/s]=8.78632; meanVelocity[m/s]=0.0331892
-[SuperPlaneIntegralFluxPressure3D] regionName=inflow; regionSize[m^2]=0.000264735; force[N]=-4.22466e-08; meanPressure[Pa]=0.000159581
-[SuperPlaneIntegralFluxVelocity3D] regionName=outflow0; regionSize[m^2]=0.000152859; volumetricFlowRate[ml/s]=-4.43813; meanVelocity[m/s]=-0.0290341
-[SuperPlaneIntegralFluxPressure3D] regionName=outflow0; regionSize[m^2]=0.000152859; force[N]=-6.97684e-07; meanPressure[Pa]=0.00456422
-[SuperPlaneIntegralFluxVelocity3D] regionName=outflow1; regionSize[m^2]=0.000155075; volumetricFlowRate[ml/s]=-4.26696; meanVelocity[m/s]=-0.0275155
-[SuperPlaneIntegralFluxPressure3D] regionName=outflow1; regionSize[m^2]=0.000155075; force[N]=-6.81566e-07; meanPressure[Pa]=0.00439508
 [Timer] step=0; percent=0; passedTime=0; remTime=0.001; MLUPs=0
 [ParticleInfo:1] Particle LokalID=0, GlobalID=0 (active)
 [ParticleInfo:1]  |Radius(m)=                       0.00015
 [ParticleInfo:1]  |Mass(kg)=                    1.41117e-08
-[ParticleInfo:1]  |Position(m)=               (   0.00636461,    0.00327714,     0.0740048)
+[ParticleInfo:1]  |Position(m)=               (  -0.00263419,   -0.00352164,     0.0740023)
 [ParticleInfo:1]  |Velocity(m/s)=             (            0,             0,             0)
 [ParticleInfo:1]  |Force(N)=                  (            0,             0,             0)
 [captureStatistics] globalNumOfParticles=1000; activeParticles=1000; escapedParticles=0
 [captureStatistics] captureRate=1; escapeRate=0
-[Timer] 
-[Timer] ----------------Summary:Timer----------------
-[Timer] measured time (rt) : 34.132s
-[Timer] measured time (cpu): 33.148s
-[Timer] average MLUPs :       4.243
-[Timer] average MLUPps:       2.121
-[Timer] ---------------------------------------------
-[Timer] step=1; percent=0.00709471; passedTime=0.088; remTime=1240.27; MLUPs=0.0113636
+[Timer] step=0; percent=0; passedTime=0; remTime=0.001; MLUPs=0
 [ParticleInfo:1] Particle LokalID=0, GlobalID=0 (active)
 [ParticleInfo:1]  |Radius(m)=                       0.00015
 [ParticleInfo:1]  |Mass(kg)=                    1.41117e-08
-[ParticleInfo:1]  |Position(m)=               (   0.00636539,      0.003278,     0.0739671)
-[ParticleInfo:1]  |Velocity(m/s)=             (  0.000550628,    0.00061061,    -0.0265743)
-[ParticleInfo:1]  |Force(N)=                  (  7.53495e-25,   1.10498e-25,  -3.29282e-23)
+[ParticleInfo:1]  |Position(m)=               (  -0.00263473,   -0.00352221,     0.0739332)
+[ParticleInfo:1]  |Velocity(m/s)=             ( -0.000380122,  -0.000398024,    -0.0486842)
+[ParticleInfo:1]  |Force(N)=                  ( -2.57459e-25,  -1.69439e-25,  -3.00155e-23)
 [captureStatistics] globalNumOfParticles=1000; activeParticles=1000; escapedParticles=0
 [captureStatistics] captureRate=1; escapeRate=0
-[Timer] step=142; percent=1.00745; passedTime=0.347; remTime=34.0964; MLUPs=0.546512
+[Timer] step=1; percent=0.00709471; passedTime=0.131; remTime=1846.31; MLUPs=0.00763359
 [ParticleInfo:1] Particle LokalID=0, GlobalID=0 (active)
 [ParticleInfo:1]  |Radius(m)=                       0.00015
 [ParticleInfo:1]  |Mass(kg)=                    1.41117e-08
-[ParticleInfo:1]  |Position(m)=               (   0.00646169,    0.00338337,     0.0686593)
-[ParticleInfo:1]  |Velocity(m/s)=             (  0.000361316,   0.000409134,    -0.0264554)
-[ParticleInfo:1]  |Force(N)=                  ( -1.55967e-11,  -1.53086e-11,   1.36365e-11)
+[ParticleInfo:1]  |Position(m)=               (  -0.00263527,   -0.00352277,     0.0738641)
+[ParticleInfo:1]  |Velocity(m/s)=             ( -0.000380116,  -0.000398014,    -0.0486842)
+[ParticleInfo:1]  |Force(N)=                  (  1.18108e-13,   2.01964e-13,   1.23223e-12)
 [captureStatistics] globalNumOfParticles=1000; activeParticles=1000; escapedParticles=0
 [captureStatistics] captureRate=1; escapeRate=0
-[Timer] step=283; percent=2.0078; passedTime=0.605; remTime=29.5274; MLUPs=0.546512
+[Timer] step=142; percent=1.00745; passedTime=0.407; remTime=39.992; MLUPs=0.51087
 [ParticleInfo:1] Particle LokalID=0, GlobalID=0 (active)
 [ParticleInfo:1]  |Radius(m)=                       0.00015
 [ParticleInfo:1]  |Mass(kg)=                    1.41117e-08
-[ParticleInfo:1]  |Position(m)=               (   0.00651507,    0.00344795,     0.0633873)
-[ParticleInfo:1]  |Velocity(m/s)=             (   0.00016497,   0.000254274,    -0.0262342)
-[ParticleInfo:1]  |Force(N)=                  (  -9.4234e-12,   -1.0497e-11,   2.00148e-11)
+[ParticleInfo:1]  |Position(m)=               (  -0.00270534,   -0.00359275,     0.0641726)
+[ParticleInfo:1]  |Velocity(m/s)=             ( -0.000304876,  -0.000277282,    -0.0480783)
+[ParticleInfo:1]  |Force(N)=                  (   7.2329e-12,    1.1311e-11,   5.64825e-11)
 [captureStatistics] globalNumOfParticles=1000; activeParticles=1000; escapedParticles=0
 [captureStatistics] captureRate=1; escapeRate=0
-[Timer] step=424; percent=3.00816; passedTime=0.863; remTime=27.8256; MLUPs=0.546512
-[ParticleInfo:1] Particle LokalID=941, GlobalID=0 (active)
+[Timer] step=283; percent=2.0078; passedTime=0.668; remTime=32.6022; MLUPs=0.54023
+[ParticleInfo:1] Particle LokalID=353, GlobalID=0 (active)
 [ParticleInfo:1]  |Radius(m)=                       0.00015
 [ParticleInfo:1]  |Mass(kg)=                    1.41117e-08
-[ParticleInfo:1]  |Position(m)=               (    0.0065435,    0.00348153,     0.0581676)
-[ParticleInfo:1]  |Velocity(m/s)=             (  0.000142664,    8.4648e-05,    -0.0259375)
-[ParticleInfo:[captureStatistics] globalNumOfParticles=1000; activeParticles=1000; escapedParticles=0
-[captureStatistics] captureRate=1; escapeRate=0
-1]  |Force(N)=                  (  2.58135e-13,  -4.30085e-12,   2.30323e-11)
-[Timer] step=565; percent=4.00851; passedTime=1.082; remTime=25.9105; MLUPs=0.643836
-[ParticleInfo:1] Particle LokalID=58, GlobalID=0 (active)
-[ParticleInfo:1]  |Radius(m)=                       0.00015
-[ParticleInfo:1]  |Mass(kg)=                    1.41117e-08
-[ParticleInfo:1]  |Position(m)=               (   0.00657025,    0.00349296,     0.0530102)
-[ParticleInfo:1]  |Velocity(m/s)=             (  0.000105164,   1.90686e-05,     -0.025653)
-[ParticleInfo:1]  |Force(N)=                  ( -6.04632e-12,  -7.96556e-12,   1.14236e-11)
+[ParticleInfo:1]  |Position(m)=               (  -0.00275742,   -0.00363585,     0.0546278)
+[ParticleInfo:1]  |Velocity(m/s)=             ( -0.000213724,  -0.000175708,    -0.0473614)
+[ParticleInfo:1]  |Force(N)=                  (  8.11864e-12,   3.28829e-12,   4.37853e-11)
 [captureStatistics] globalNumOfParticles=1000; activeParticles=1000; escapedParticles=0
 [captureStatistics] captureRate=1; escapeRate=0
-[Timer] step=706; percent=5.00887; passedTime=1.273; remTime=24.1419; MLUPs=0.742105
-[ParticleInfo:1] Particle LokalID=58, GlobalID=0 (active)
+[Timer] step=424; percent=3.00816; passedTime=0.925; remTime=29.8247; MLUPs=0.548638
+[ParticleInfo:1] Particle LokalID=353, GlobalID=0 (active)
 [ParticleInfo:1]  |Radius(m)=                       0.00015
 [ParticleInfo:1]  |Mass(kg)=                    1.41117e-08
-[ParticleInfo:1]  |Position(m)=               (   0.00658859,    0.00349355,     0.0478868)
-[ParticleInfo:1]  |Velocity(m/s)=             (  0.000107675,  -1.45766e-05,    -0.0255542)
-[ParticleInfo:1]  |Force(N)=                  (   5.4737e-12,  -4.45253e-12,   8.43161e-12)
+[ParticleInfo:1]  |Position(m)=               (  -0.00278938,   -0.00366371,     0.0452049)
+[ParticleInfo:1]  |Velocity(m/s)=             ( -0.000120032,  -8.70862e-05,     -0.046869)
+[ParticleInfo:1]  |Force(N)=                  (  3.23037e-12,   1.03218e-11,   2.68176e-11)
 [captureStatistics] globalNumOfParticles=1000; activeParticles=1000; escapedParticles=0
 [captureStatistics] captureRate=1; escapeRate=0
-[Timer] step=847; percent=6.00922; passedTime=1.487; remTime=23.2583; MLUPs=0.661972
-[ParticleInfo:1] Particle LokalID=58, GlobalID=0 (active)
-[ParticleInfo:1]  |Radius(m)=                       0.00015
-[ParticleInfo:1]  |Mass(kg)=                    1.41117e-08
-[ParticleInfo:1]  |Position(m)=               (   0.00661672,    0.00348752,     0.0427815)
-[ParticleInfo:1]  |Velocity(m/s)=             (  0.000153481,  -4.42272e-05,    -0.0254975)
-[ParticleInfo:1]  |Force(N)=                  (  6.60256e-13,  -5.01365e-12,   2.93567e-12)
+[Timer] step=565; percent=4.00851; passedTime=1.142; remTime=27.3474; MLUPs=0.646789
+[ParticleInfo:0] Particle LokalID=353, GlobalID=0 (active)
+[ParticleInfo:0]  |Radius(m)=                       0.00015
+[ParticleInfo:0]  |Mass(kg)=                    1.41117e-08
+[ParticleInfo:0]  |Position(m)=               (  -0.00281747,   -0.00366585,     0.0358621)
+[ParticleInfo:0]  |Velocity(m/s)=             ( -0.000216712,   6.47619e-05,    -0.0465144)
+[ParticleInfo:0]  |Force(N)=                  ( -1.97617e-11,   1.12212e-11,    3.1758e-11)
 [captureStatistics] globalNumOfParticles=1000; activeParticles=1000; escapedParticles=0
 [captureStatistics] captureRate=1; escapeRate=0
-[Timer] step=988; percent=7.00958; passedTime=2.532; remTime=33.59; MLUPs=0.134928
-[ParticleInfo:0] Particle LokalID=317, GlobalID=0 (active)
+[Timer] step=706; percent=5.00887; passedTime=1.332; remTime=25.2608; MLUPs=0.742105
+[ParticleInfo:0] Particle LokalID=353, GlobalID=0 (active)
 [ParticleInfo:0]  |Radius(m)=                       0.00015
 [ParticleInfo:0]  |Mass(kg)=                    1.41117e-08
-[ParticleInfo:0]  |Position(m)=               (   0.00665354,    0.00346732,     0.0376785)
-[ParticleInfo:0]  |Velocity(m/s)=             (  0.000243596,  -0.000170163,    -0.0255364)
-[ParticleInfo:0]  |Force(N)=                  (  1.67929e-11,  -8.75045e-12,  -8.56161e-12)
-[captureStatistics] globalNumOfParticles=1000; activeParticles=873; escapedParticles=0
+[ParticleInfo:0]  |Position(m)=               (  -0.00290244,   -0.00363256,     0.0266228)
+[ParticleInfo:0]  |Velocity(m/s)=             ( -0.000697941,   0.000293795,    -0.0457066)
+[ParticleInfo:0]  |Force(N)=                  ( -4.76424e-11,   2.14594e-11,   8.97587e-11)
+[captureStatistics] globalNumOfParticles=1000; activeParticles=1000; escapedParticles=0
 [captureStatistics] captureRate=1; escapeRate=0
-[Timer] step=1129; percent=8.00993; passedTime=3.868; remTime=44.422; MLUPs=0.105618
-[ParticleInfo:0] Particle LokalID=317, GlobalID=0 (active)
+[Timer] step=847; percent=6.00922; passedTime=1.546; remTime=24.1811; MLUPs=0.661972
+[ParticleInfo:0] Particle LokalID=353, GlobalID=0 (active)
 [ParticleInfo:0]  |Radius(m)=                       0.00015
 [ParticleInfo:0]  |Mass(kg)=                    1.41117e-08
-[ParticleInfo:0]  |Position(m)=               (   0.00673856,    0.00342235,      0.032557)
-[ParticleInfo:0]  |Velocity(m/s)=             (  0.000627477,  -0.000284274,    -0.0256666)
-[ParticleInfo:0]  |Force(N)=                  (  3.27845e-11,  -3.63999e-12,  -8.94378e-12)
-[captureStatistics] globalNumOfParticles=1000; activeParticles=783; escapedParticles=0
+[ParticleInfo:0]  |Position(m)=               (   -0.0031251,    -0.0035389,     0.0176527)
+[ParticleInfo:0]  |Velocity(m/s)=             (  -0.00162915,   0.000667254,    -0.0437034)
+[ParticleInfo:0]  |Force(N)=                  ( -9.37357e-11,   3.15755e-11,   1.99825e-10)
+[captureStatistics] globalNumOfParticles=1000; activeParticles=1000; escapedParticles=0
 [captureStatistics] captureRate=1; escapeRate=0
-[Timer] step=1270; percent=9.01029; passedTime=5.474; remTime=55.2788; MLUPs=0.0877958
-[ParticleInfo:0] Particle LokalID=161, GlobalID=0 (active)
+[Timer] step=988; percent=7.00958; passedTime=2.492; remTime=33.0594; MLUPs=0.148891
+[ParticleInfo:0] Particle LokalID=354, GlobalID=0 (active)
 [ParticleInfo:0]  |Radius(m)=                       0.00015
 [ParticleInfo:0]  |Mass(kg)=                    1.41117e-08
-[ParticleInfo:0]  |Position(m)=               (   0.00691871,    0.00336265,     0.0274156)
-[ParticleInfo:0]  |Velocity(m/s)=             (   0.00120994,  -0.000324074,    -0.0257131)
-[ParticleInfo:0]  |Force(N)=                  (  4.74831e-11,  -5.20398e-12,  -1.66509e-12)
-[captureStatistics] globalNumOfParticles=1000; activeParticles=722; escapedParticles=0
+[ParticleInfo:0]  |Position(m)=               (  -0.00364398,   -0.00336419,    0.00926567)
+[ParticleInfo:0]  |Velocity(m/s)=             (  -0.00399272,     0.0010065,    -0.0397088)
+[ParticleInfo:0]  |Force(N)=                  (  -2.8371e-10,  -5.07944e-12,   3.81099e-10)
+[captureStatistics] globalNumOfParticles=1000; activeParticles=888; escapedParticles=0
 [captureStatistics] captureRate=1; escapeRate=0
-[Timer] step=1411; percent=10.0106; passedTime=6.912; remTime=62.1345; MLUPs=0.0980529
-[ParticleInfo:0] Particle LokalID=138, GlobalID=0 (active)
+[Timer] step=1129; percent=8.00993; passedTime=3.845; remTime=44.1579; MLUPs=0.10429
+[ParticleInfo:0] Particle LokalID=354, GlobalID=0 (active)
 [ParticleInfo:0]  |Radius(m)=                       0.00015
 [ParticleInfo:0]  |Mass(kg)=                    1.41117e-08
-[ParticleInfo:0]  |Position(m)=               (   0.00723631,    0.00328715,     0.0222723)
-[ParticleInfo:0]  |Velocity(m/s)=             (   0.00200397,  -0.000443687,    -0.0256684)
-[ParticleInfo:0]  |Force(N)=                  (  6.38208e-11,  -1.10666e-11,   1.08638e-11)
-[captureStatistics] globalNumOfParticles=1000; activeParticles=676; escapedParticles=0
+[ParticleInfo:0]  |Position(m)=               (  -0.00501449,   -0.00326293,    0.00192801)
+[ParticleInfo:0]  |Velocity(m/s)=             (     -0.01004,  -0.000346516,    -0.0336263)
+[ParticleInfo:0]  |Force(N)=                  ( -3.56691e-10,  -1.10321e-10,   4.10237e-10)
+[captureStatistics] globalNumOfParticles=1000; activeParticles=795; escapedParticles=0
 [captureStatistics] captureRate=1; escapeRate=0
-[Timer] step=1552; percent=11.011; passedTime=8.369; remTime=67.6368; MLUPs=0.0967078
-[ParticleInfo:0] Particle LokalID=14, GlobalID=0 (active)
+[Timer] step=1270; percent=9.01029; passedTime=5.349; remTime=54.0165; MLUPs=0.0936877
+[ParticleInfo:0] Particle LokalID=354, GlobalID=0 (active)
 [ParticleInfo:0]  |Radius(m)=                       0.00015
 [ParticleInfo:0]  |Mass(kg)=                    1.41117e-08
-[ParticleInfo:0]  |Position(m)=               (   0.00773702,    0.00318099,     0.0171556)
-[ParticleInfo:0]  |Velocity(m/s)=             (   0.00305858,  -0.000629712,    -0.0254819)
-[ParticleInfo:0]  |Force(N)=                  (  8.84466e-11,  -1.58454e-11,   1.21938e-11)
-[captureStatistics] globalNumOfParticles=1000; activeParticles=657; escapedParticles=0
+[ParticleInfo:0]  |Position(m)=               (  -0.00724928,   -0.00340228,   -0.00411958)
+[ParticleInfo:0]  |Velocity(m/s)=             (   -0.0112477,   -0.00075358,    -0.0264516)
+[ParticleInfo:0]  |Force(N)=                  (  8.71909e-11,    1.9564e-11,   5.66346e-10)
+[captureStatistics] globalNumOfParticles=1000; activeParticles=725; escapedParticles=0
 [captureStatistics] captureRate=1; escapeRate=0
-[Timer] step=1693; percent=12.0114; passedTime=9.945; remTime=72.8517; MLUPs=0.0895238
-[ParticleInfo:0] Particle LokalID=469, GlobalID=0 (active)
-[ParticleInfo:0]  |Radius(m)=                       0.00015
-[ParticleInfo:0]  |Mass(kg)=                    1.41117e-08
-[ParticleInfo:0]  |Position(m)=               (   0.00849746,    0.00302998,     0.0120703)
-[ParticleInfo:0]  |Velocity(m/s)=             (   0.00469544,   -0.00088699,    -0.0253993)
-[ParticleInfo:0]  |Force(N)=                  (   1.5222e-10,  -1.97049e-11,  -8.83008e-12)
-[captureStatistics] globalNumOfParticles=1000; activeParticles=609; escapedParticles=34
-[captureStatistics] captureRate=0.966; escapeRate=0.034
-[Timer] step=1834; percent=13.0117; passedTime=11.687; remTime=78.1321; MLUPs=0.0809414
-[ParticleInfo:0] Particle LokalID=345, GlobalID=0 (active)
-[ParticleInfo:0]  |Radius(m)=                       0.00015
-[ParticleInfo:0]  |Mass(kg)=                    1.41117e-08
-[ParticleInfo:0]  |Position(m)=               (   0.00970341,    0.00282908,    0.00694917)
-[ParticleInfo:0]  |Velocity(m/s)=             (   0.00761259,   -0.00108853,    -0.0259536)
-[ParticleInfo:0]  |Force(N)=                  (  2.60184e-10,  -6.06963e-12,  -7.89401e-11)
-[captureStatistics] globalNumOfParticles=1000; activeParticles=499; escapedParticles=142
-[captureStatistics] captureRate=0.858; escapeRate=0.142
-[Timer] step=1975; percent=14.0121; passedTime=13.516; remTime=82.9438; MLUPs=0.0770492
-[ParticleInfo:1] Particle LokalID=3, GlobalID=0 (active)
+[Timer] step=1411; percent=10.0106; passedTime=6.86; remTime=61.6671; MLUPs=0.0933775
+[ParticleInfo:1] Particle LokalID=76, GlobalID=0 (active)
 [ParticleInfo:1]  |Radius(m)=                       0.00015
 [ParticleInfo:1]  |Mass(kg)=                    1.41117e-08
-[ParticleInfo:1]  |Position(m)=               (    0.0116319,    0.00261397,    0.00160045)
-[ParticleInfo:1]  |Velocity(m/s)=             (    0.0117933,   -0.00101379,    -0.0277444)
-[ParticleInfo:1]  |Force(N)=                  (  3.12871e-10,   1.52469e-11,  -1.73569e-10)
-[captureStatistics] globalNumOfParticles=1000; activeParticles=416; escapedParticles=219
-[captureStatistics] captureRate=0.781; escapeRate=0.219
-[Timer] step=2116; percent=15.0124; passedTime=15.245; remTime=86.3043; MLUPs=0.0815029
-[ParticleInfo:0] Particle LokalID=227, GlobalID=0 (active)
-[ParticleInfo:0]  |Radius(m)=                       0.00015
-[ParticleInfo:0]  |Mass(kg)=                    1.41117e-08
-[ParticleInfo:0]  |Position(m)=               (     0.014417,    0.00243517,   -0.00422059)
-[ParticleInfo:0]  |Velocity(m/s)=             (     0.015901,  -0.000761683,    -0.0305053)
-[ParticleInfo:0]  |Force(N)=                  (  2.51392e-10,   2.02187e-11,  -1.97044e-10)
-[captureStatistics] globalNumOfParticles=1000; activeParticles=331; escapedParticles=295
-[captureStatistics] captureRate=0.705; escapeRate=0.295
-[Timer] step=2257; percent=16.0128; passedTime=16.805; remTime=88.1425; MLUPs=0.0904426
-[ParticleInfo:0] Particle LokalID=227, GlobalID=0 (active)
-[ParticleInfo:0]  |Radius(m)=                       0.00015
-[ParticleInfo:0]  |Mass(kg)=                    1.41117e-08
-[ParticleInfo:0]  |Position(m)=               (    0.0179082,    0.00231246,    -0.0105894)
-[ParticleInfo:0]  |Velocity(m/s)=             (    0.0187316,  -0.000462187,    -0.0330461)
-[ParticleInfo:0]  |Force(N)=                  (  1.42654e-10,   1.97962e-11,  -1.51888e-10)
-[captureStatistics] globalNumOfParticles=1000; activeParticles=263; escapedParticles=354
-[captureStatistics] captureRate=0.646; escapeRate=0.354
-[Timer] step=2398; percent=17.0131; passedTime=18.233; remTime=88.9372; MLUPs=0.0987395
-[ParticleInfo:0] Particle LokalID=227, GlobalID=0 (active)
-[ParticleInfo:0]  |Radius(m)=                       0.00015
-[ParticleInfo:0]  |Mass(kg)=                    1.41117e-08
-[ParticleInfo:0]  |Position(m)=               (    0.0218132,    0.00224041,     -0.017392)
-[ParticleInfo:0]  |Velocity(m/s)=             (    0.0200829,  -0.000310765,    -0.0348062)
-[ParticleInfo:0]  |Force(N)=                  (  5.08416e-11,  -2.98962e-12,  -8.89237e-11)
-[captureStatistics] globalNumOfParticles=1000; activeParticles=211; escapedParticles=403
-[captureStatistics] captureRate=0.597; escapeRate=0.403
-[Timer] step=2539; percent=18.0135; passedTime=19.47; remTime=88.6157; MLUPs=0.113985
-[captureStatistics] globalNumOfParticles=1000; activeParticles=155; escapedParticles=460
-[captureStatistics] captureRate=0.54; escapeRate=0.46
-[Timer] step=2680; percent=19.0138; passedTime=20.517; remTime=87.3886; MLUPs=0.134799
-[captureStatistics] globalNumOfParticles=1000; activeParticles=123; escapedParticles=484
-[captureStatistics] captureRate=0.516; escapeRate=0.484
-[Timer] step=2821; percent=20.0142; passedTime=21.462; remTime=85.7719; MLUPs=0.149049
-[captureStatistics] globalNumOfParticles=1000; activeParticles=104; escapedParticles=505
-[captureStatistics] captureRate=0.495; escapeRate=0.505
-[Timer] step=2962; percent=21.0145; passedTime=22.349; remTime=84.0012; MLUPs=0.158784
-[captureStatistics] globalNumOfParticles=1000; activeParticles=85; escapedParticles=523
-[captureStatistics] captureRate=0.477; escapeRate=0.523
-[Timer] step=3103; percent=22.0149; passedTime=23.255; remTime=82.378; MLUPs=0.155458
-[captureStatistics] globalNumOfParticles=1000; activeParticles=75; escapedParticles=536
-[captureStatistics] captureRate=0.464; escapeRate=0.536
-[Timer] step=3244; percent=23.0153; passedTime=24.1; remTime=80.6132; MLUPs=0.166864
-[captureStatistics] globalNumOfParticles=1000; activeParticles=64; escapedParticles=544
-[captureStatistics] captureRate=0.456; escapeRate=0.544
-[Timer] step=3385; percent=24.0156; passedTime=24.9; remTime=78.7826; MLUPs=0.17625
-[captureStatistics] globalNumOfParticles=1000; activeParticles=58; escapedParticles=549
-[captureStatistics] captureRate=0.451; escapeRate=0.549
-[Timer] step=3526; percent=25.016; passedTime=25.601; remTime=76.7377; MLUPs=0.200855
-[captureStatistics] globalNumOfParticles=1000; activeParticles=54; escapedParticles=552
-[captureStatistics] captureRate=0.448; escapeRate=0.552
-[Timer] step=3667; percent=26.0163; passedTime=26.234; remTime=74.6027; MLUPs=0.222749
-[captureStatistics] globalNumOfParticles=1000; activeParticles=47; escapedParticles=559
-[captureStatistics] captureRate=0.441; escapeRate=0.559
-[Timer] step=3808; percent=27.0167; passedTime=26.896; remTime=72.6573; MLUPs=0.213313
-[captureStatistics] globalNumOfParticles=1000; activeParticles=41; escapedParticles=565
-[captureStatistics] captureRate=0.435; escapeRate=0.565
-[Timer] step=3949; percent=28.017; passedTime=27.453; remTime=70.5338; MLUPs=0.253142
-[captureStatistics] globalNumOfParticles=1000; activeParticles=36; escapedParticles=569
-[captureStatistics] captureRate=0.431; escapeRate=0.569
-[Timer] step=4090; percent=29.0174; passedTime=27.947; remTime=68.3642; MLUPs=0.285425
-[captureStatistics] globalNumOfParticles=1000; activeParticles=32; escapedParticles=572
+[ParticleInfo:1]  |Position(m)=               (  -0.00930697,   -0.00352166,   -0.00863214)
+[ParticleInfo:1]  |Velocity(m/s)=             (  -0.00913343,    -0.0004679,    -0.0189073)
+[ParticleInfo:1]  |Force(N)=                  (  1.71804e-10,   1.47474e-11,   4.65519e-10)
+[captureStatistics] globalNumOfParticles=1000; activeParticles=679; escapedParticles=0
+[captureStatistics] captureRate=1; escapeRate=0
+[Timer] step=1552; percent=11.011; passedTime=8.636; remTime=69.7947; MLUPs=0.0793919
+[ParticleInfo:1] Particle LokalID=76, GlobalID=0 (active)
+[ParticleInfo:1]  |Radius(m)=                       0.00015
+[ParticleInfo:1]  |Mass(kg)=                    1.41117e-08
+[ParticleInfo:1]  |Position(m)=               (   -0.0109061,   -0.00359121,    -0.0118231)
+[ParticleInfo:1]  |Velocity(m/s)=             (  -0.00694714,   -0.00021841,    -0.0133433)
+[ParticleInfo:1]  |Force(N)=                  (  1.34305e-10,   1.51112e-11,   3.14423e-10)
+[captureStatistics] globalNumOfParticles=1000; activeParticles=659; escapedParticles=0
+[captureStatistics] captureRate=1; escapeRate=0
+[Timer] step=1693; percent=12.0114; passedTime=10.426; remTime=76.3752; MLUPs=0.078727
+[ParticleInfo:1] Particle LokalID=76, GlobalID=0 (active)
+[ParticleInfo:1]  |Radius(m)=                       0.00015
+[ParticleInfo:1]  |Mass(kg)=                    1.41117e-08
+[ParticleInfo:1]  |Position(m)=               (   -0.0121267,   -0.00361852,    -0.0141119)
+[ParticleInfo:1]  |Velocity(m/s)=             (  -0.00538464,  -8.53186e-05,   -0.00986943)
+[ParticleInfo:1]  |Force(N)=                  (  8.32921e-11,   2.72479e-12,   1.75026e-10)
+[captureStatistics] globalNumOfParticles=1000; activeParticles=607; escapedParticles=45
+[captureStatistics] captureRate=0.955; escapeRate=0.045
+[Timer] step=1834; percent=13.0117; passedTime=12.418; remTime=83.0191; MLUPs=0.0707476
+[ParticleInfo:1] Particle LokalID=76, GlobalID=0 (active)
+[ParticleInfo:1]  |Radius(m)=                       0.00015
+[ParticleInfo:1]  |Mass(kg)=                    1.41117e-08
+[ParticleInfo:1]  |Position(m)=               (   -0.0130932,   -0.00363138,    -0.0158604)
+[ParticleInfo:1]  |Velocity(m/s)=             (  -0.00437828,  -4.00637e-05,   -0.00781801)
+[ParticleInfo:1]  |Force(N)=                  (  4.38024e-11,   3.87677e-12,   9.17808e-11)
+[captureStatistics] globalNumOfParticles=1000; activeParticles=503; escapedParticles=134
+[captureStatistics] captureRate=0.866; escapeRate=0.134
+[Timer] step=1975; percent=14.0121; passedTime=14.39; remTime=88.3072; MLUPs=0.071501
+[ParticleInfo:1] Particle LokalID=76, GlobalID=0 (active)
+[ParticleInfo:1]  |Radius(m)=                       0.00015
+[ParticleInfo:1]  |Mass(kg)=                    1.41117e-08
+[ParticleInfo:1]  |Position(m)=               (   -0.0139096,   -0.00363347,     -0.017303)
+[ParticleInfo:1]  |Velocity(m/s)=             (  -0.00379728,   1.17193e-05,   -0.00665377)
+[ParticleInfo:1]  |Force(N)=                  (  3.47261e-11,   2.03516e-12,   6.44571e-11)
+[captureStatistics] globalNumOfParticles=1000; activeParticles=421; escapedParticles=216
+[captureStatistics] captureRate=0.784; escapeRate=0.216
+[Timer] step=2116; percent=15.0124; passedTime=16.232; remTime=91.8918; MLUPs=0.0765472
+[ParticleInfo:1] Particle LokalID=76, GlobalID=0 (active)
+[ParticleInfo:1]  |Radius(m)=                       0.00015
+[ParticleInfo:1]  |Mass(kg)=                    1.41117e-08
+[ParticleInfo:1]  |Position(m)=               (   -0.0146382,   -0.00362681,    -0.0185761)
+[ParticleInfo:1]  |Velocity(m/s)=             (  -0.00350772,   6.63763e-05,   -0.00611548)
+[ParticleInfo:1]  |Force(N)=                  (  1.67812e-11,   5.47124e-12,   2.89408e-11)
+[captureStatistics] globalNumOfParticles=1000; activeParticles=355; escapedParticles=272
+[captureStatistics] captureRate=0.728; escapeRate=0.272
+[Timer] step=2257; percent=16.0128; passedTime=17.944; remTime=94.1166; MLUPs=0.0823598
+[ParticleInfo:1] Particle LokalID=76, GlobalID=0 (active)
+[ParticleInfo:1]  |Radius(m)=                       0.00015
+[ParticleInfo:1]  |Mass(kg)=                    1.41117e-08
+[ParticleInfo:1]  |Position(m)=               (   -0.0153222,   -0.00360586,    -0.0197768)
+[ParticleInfo:1]  |Velocity(m/s)=             (  -0.00334509,   0.000147083,   -0.00594656)
+[ParticleInfo:1]  |Force(N)=                  (  8.59761e-12,   6.53062e-12,   2.37339e-12)
+[captureStatistics] globalNumOfParticles=1000; activeParticles=268; escapedParticles=352
+[captureStatistics] captureRate=0.648; escapeRate=0.352
+[Timer] step=2398; percent=17.0131; passedTime=19.331; remTime=94.293; MLUPs=0.101585
+[ParticleInfo:1] Particle LokalID=76, GlobalID=0 (active)
+[ParticleInfo:1]  |Radius(m)=                       0.00015
+[ParticleInfo:1]  |Mass(kg)=                    1.41117e-08
+[ParticleInfo:1]  |Position(m)=               (    -0.015973,   -0.00356678,    -0.0209551)
+[ParticleInfo:1]  |Velocity(m/s)=             (  -0.00318485,   0.000249648,   -0.00588211)
+[ParticleInfo:1]  |Force(N)=                  ( -9.96586e-13,   8.79535e-12,  -1.25123e-11)
+[captureStatistics] globalNumOfParticles=1000; activeParticles=212; escapedParticles=400
+[captureStatistics] captureRate=0.6; escapeRate=0.4
+[Timer] step=2539; percent=18.0135; passedTime=20.648; remTime=93.9773; MLUPs=0.107143
+[ParticleInfo:1] Particle LokalID=76, GlobalID=0 (active)
+[ParticleInfo:1]  |Radius(m)=                       0.00015
+[ParticleInfo:1]  |Mass(kg)=                    1.41117e-08
+[ParticleInfo:1]  |Position(m)=               (   -0.0166182,   -0.00350279,    -0.0221474)
+[ParticleInfo:1]  |Velocity(m/s)=             (  -0.00322967,   0.000381727,   -0.00597271)
+[ParticleInfo:1]  |Force(N)=                  (  1.42764e-11,   4.92305e-12,    1.1174e-11)
+[captureStatistics] globalNumOfParticles=1000; activeParticles=163; escapedParticles=444
+[captureStatistics] captureRate=0.556; escapeRate=0.444
+[Timer] step=2680; percent=19.0138; passedTime=21.845; remTime=93.045; MLUPs=0.117794
+[ParticleInfo:1] Particle LokalID=76, GlobalID=0 (active)
+[ParticleInfo:1]  |Radius(m)=                       0.00015
+[ParticleInfo:1]  |Mass(kg)=                    1.41117e-08
+[ParticleInfo:1]  |Position(m)=               (   -0.0172422,   -0.00342023,    -0.0233576)
+[ParticleInfo:1]  |Velocity(m/s)=             (  -0.00310891,   0.000421837,   -0.00628368)
+[ParticleInfo:1]  |Force(N)=                  (  -2.0249e-11,  -6.83931e-12,  -4.57865e-11)
+[captureStatistics] globalNumOfParticles=1000; activeParticles=124; escapedParticles=478
+[captureStatistics] captureRate=0.522; escapeRate=0.478
+[Timer] step=2821; percent=20.0142; passedTime=22.913; remTime=91.5708; MLUPs=0.132146
+[ParticleInfo:1] Particle LokalID=76, GlobalID=0 (active)
+[ParticleInfo:1]  |Radius(m)=                       0.00015
+[ParticleInfo:1]  |Mass(kg)=                    1.41117e-08
+[ParticleInfo:1]  |Position(m)=               (   -0.0179186,   -0.00335835,    -0.0246506)
+[ParticleInfo:1]  |Velocity(m/s)=             (  -0.00384278,   0.000188016,   -0.00644662)
+[ParticleInfo:1]  |Force(N)=                  ( -1.22877e-10,  -9.86309e-12,   8.63868e-12)
+[captureStatistics] globalNumOfParticles=1000; activeParticles=109; escapedParticles=499
+[captureStatistics] captureRate=0.501; escapeRate=0.499
+[Timer] step=2962; percent=21.0145; passedTime=23.948; remTime=90.0112; MLUPs=0.136364
+[captureStatistics] globalNumOfParticles=1000; activeParticles=88; escapedParticles=512
+[captureStatistics] captureRate=0.488; escapeRate=0.512
+[Timer] step=3103; percent=22.0149; passedTime=24.806; remTime=87.8722; MLUPs=0.164336
+[captureStatistics] globalNumOfParticles=1000; activeParticles=81; escapedParticles=520
+[captureStatistics] captureRate=0.48; escapeRate=0.52
+[Timer] step=3244; percent=23.0153; passedTime=25.597; remTime=85.6205; MLUPs=0.178255
+[captureStatistics] globalNumOfParticles=1000; activeParticles=76; escapedParticles=525
+[captureStatistics] captureRate=0.475; escapeRate=0.525
+[Timer] step=3385; percent=24.0156; passedTime=26.352; remTime=83.3766; MLUPs=0.186508
+[captureStatistics] globalNumOfParticles=1000; activeParticles=66; escapedParticles=535
+[captureStatistics] captureRate=0.465; escapeRate=0.535
+[Timer] step=3526; percent=25.016; passedTime=27.015; remTime=80.976; MLUPs=0.212349
+[captureStatistics] globalNumOfParticles=1000; activeParticles=60; escapedParticles=541
+[captureStatistics] captureRate=0.459; escapeRate=0.541
+[Timer] step=3667; percent=26.0163; passedTime=27.638; remTime=78.5953; MLUPs=0.226688
+[captureStatistics] globalNumOfParticles=1000; activeParticles=55; escapedParticles=547
+[captureStatistics] captureRate=0.453; escapeRate=0.547
+[Timer] step=3808; percent=27.0167; passedTime=28.208; remTime=76.2016; MLUPs=0.246935
+[captureStatistics] globalNumOfParticles=1000; activeParticles=48; escapedParticles=555
+[captureStatistics] captureRate=0.445; escapeRate=0.555
+[Timer] step=3949; percent=28.017; passedTime=28.778; remTime=73.9381; MLUPs=0.247803
+[captureStatistics] globalNumOfParticles=1000; activeParticles=38; escapedParticles=561
+[captureStatistics] captureRate=0.439; escapeRate=0.561
+[Timer] step=4090; percent=29.0174; passedTime=29.311; remTime=71.7009; MLUPs=0.26454
+[captureStatistics] globalNumOfParticles=1000; activeParticles=34; escapedParticles=563
+[captureStatistics] captureRate=0.437; escapeRate=0.563
+[Timer] step=4231; percent=30.0177; passedTime=29.781; remTime=69.4303; MLUPs=0.30064
+[captureStatistics] globalNumOfParticles=1000; activeParticles=26; escapedParticles=570
+[captureStatistics] captureRate=0.43; escapeRate=0.57
+[Timer] step=4372; percent=31.0181; passedTime=30.164; remTime=67.0825; MLUPs=0.367188
+[captureStatistics] globalNumOfParticles=1000; activeParticles=23; escapedParticles=572
 [captureStatistics] captureRate=0.428; escapeRate=0.572
-[Timer] step=4231; percent=30.0177; passedTime=28.373; remTime=66.1478; MLUPs=0.330211
-[captureStatistics] globalNumOfParticles=1000; activeParticles=28; escapedParticles=576
+[Timer] step=4513; percent=32.0184; passedTime=30.541; remTime=64.8446; MLUPs=0.375
+[captureStatistics] globalNumOfParticles=1000; activeParticles=20; escapedParticles=574
+[captureStatistics] captureRate=0.426; escapeRate=0.574
+[Timer] step=4654; percent=33.0188; passedTime=30.882; remTime=62.6465; MLUPs=0.41349
+[captureStatistics] globalNumOfParticles=1000; activeParticles=19; escapedParticles=574
+[captureStatistics] captureRate=0.426; escapeRate=0.574
+[Timer] step=4795; percent=34.0192; passedTime=36.503; remTime=70.7983; MLUPs=0.02508
+[captureStatistics] globalNumOfParticles=1000; activeParticles=17; escapedParticles=575
+[captureStatistics] captureRate=0.425; escapeRate=0.575
+[Timer] step=4936; percent=35.0195; passedTime=36.813; remTime=68.3084; MLUPs=0.456311
+[captureStatistics] globalNumOfParticles=1000; activeParticles=16; escapedParticles=576
 [captureStatistics] captureRate=0.424; escapeRate=0.576
-[Timer] step=4372; percent=31.0181; passedTime=28.789; remTime=64.0246; MLUPs=0.339759
-[captureStatistics] globalNumOfParticles=1000; activeParticles=26; escapedParticles=576
-[captureStatistics] captureRate=0.424; escapeRate=0.576
-[Timer] step=4513; percent=32.0184; passedTime=29.199; remTime=61.9953; MLUPs=0.343066
-[captureStatistics] globalNumOfParticles=1000; activeParticles=24; escapedParticles=579
+[Timer] step=5077; percent=36.0199; passedTime=37.137; remTime=65.9644; MLUPs=0.433846
+[captureStatistics] globalNumOfParticles=1000; activeParticles=15; escapedParticles=578
+[captureStatistics] captureRate=0.422; escapeRate=0.578
+[Timer] step=5218; percent=37.0202; passedTime=37.417; remTime=63.6548; MLUPs=0.505376
+[captureStatistics] globalNumOfParticles=1000; activeParticles=14; escapedParticles=579
 [captureStatistics] captureRate=0.421; escapeRate=0.579
-[Timer] step=4654; percent=33.0188; passedTime=29.565; remTime=59.9749; MLUPs=0.385246
-[captureStatistics] globalNumOfParticles=1000; activeParticles=23; escapedParticles=579
+[Timer] step=5359; percent=38.0206; passedTime=37.702; remTime=61.4601; MLUPs=0.494737
+[captureStatistics] globalNumOfParticles=1000; activeParticles=12; escapedParticles=579
 [captureStatistics] captureRate=0.421; escapeRate=0.579
-[Timer] step=4795; percent=34.0192; passedTime=29.946; remTime=58.0809; MLUPs=0.371053
-[captureStatistics] globalNumOfParticles=1000; activeParticles=22; escapedParticles=580
+[Timer] step=5500; percent=39.0209; passedTime=37.954; remTime=59.3118; MLUPs=0.561753
+[captureStatistics] globalNumOfParticles=1000; activeParticles=12; escapedParticles=580
 [captureStatistics] captureRate=0.42; escapeRate=0.58
-[Timer] step=4936; percent=35.0195; passedTime=30.331; remTime=56.2807; MLUPs=0.365285
-[captureStatistics] globalNumOfParticles=1000; activeParticles=20; escapedParticles=582
-[captureStatistics] captureRate=0.418; escapeRate=0.582
-[Timer] step=5077; percent=36.0199; passedTime=30.667; remTime=54.4721; MLUPs=0.419643
-[captureStatistics] globalNumOfParticles=1000; activeParticles=19; escapedParticles=582
-[captureStatistics] captureRate=0.418; escapeRate=0.582
-[Timer] step=5218; percent=37.0202; passedTime=31.026; remTime=52.7823; MLUPs=0.392758
-[captureStatistics] globalNumOfParticles=1000; activeParticles=18; escapedParticles=584
+[Timer] step=5641; percent=40.0213; passedTime=38.201; remTime=57.2507; MLUPs=0.568548
+[captureStatistics] globalNumOfParticles=1000; activeParticles=10; escapedParticles=583
+[captureStatistics] captureRate=0.417; escapeRate=0.583
+[Timer] step=5782; percent=41.0216; passedTime=38.42; remTime=55.2379; MLUPs=0.646789
+[captureStatistics] globalNumOfParticles=1000; activeParticles=7; escapedParticles=583
+[captureStatistics] captureRate=0.417; escapeRate=0.583
+[Timer] step=5923; percent=42.022; passedTime=38.633; remTime=53.3022; MLUPs=0.661972
+[captureStatistics] globalNumOfParticles=1000; activeParticles=5; escapedParticles=584
 [captureStatistics] captureRate=0.416; escapeRate=0.584
-[Timer] step=5359; percent=38.0206; passedTime=31.333; remTime=51.0776; MLUPs=0.459283
-[captureStatistics] globalNumOfParticles=1000; activeParticles=16; escapedParticles=586
+[Timer] step=6064; percent=43.0223; passedTime=38.848; remTime=51.4493; MLUPs=0.658879
+[captureStatistics] globalNumOfParticles=1000; activeParticles=5; escapedParticles=585
+[captureStatistics] captureRate=0.415; escapeRate=0.585
+[Timer] step=6205; percent=44.0227; passedTime=39.061; remTime=49.6682; MLUPs=0.661972
+[captureStatistics] globalNumOfParticles=1000; activeParticles=4; escapedParticles=586
 [captureStatistics] captureRate=0.414; escapeRate=0.586
-[Timer] step=5500; percent=39.0209; passedTime=31.649; remTime=49.4588; MLUPs=0.446203
-[captureStatistics] globalNumOfParticles=1000; activeParticles=14; escapedParticles=586
+[Timer] step=6346; percent=45.0231; passedTime=39.251; remTime=47.9288; MLUPs=0.742105
+[captureStatistics] globalNumOfParticles=1000; activeParticles=3; escapedParticles=586
 [captureStatistics] captureRate=0.414; escapeRate=0.586
-[Timer] step=5641; percent=40.0213; passedTime=31.954; remTime=47.8885; MLUPs=0.463816
-[captureStatistics] globalNumOfParticles=1000; activeParticles=13; escapedParticles=587
+[Timer] step=6487; percent=46.0234; passedTime=39.391; remTime=46.198; MLUPs=1.01439
+[captureStatistics] globalNumOfParticles=1000; activeParticles=2; escapedParticles=586
+[captureStatistics] captureRate=0.414; escapeRate=0.586
+[Timer] step=6628; percent=47.0238; passedTime=39.534; remTime=44.5384; MLUPs=0.992958
+[captureStatistics] globalNumOfParticles=1000; activeParticles=2; escapedParticles=586
+[captureStatistics] captureRate=0.414; escapeRate=0.586
+[Timer] step=6769; percent=48.0241; passedTime=39.688; remTime=42.9538; MLUPs=0.915584
+[captureStatistics] globalNumOfParticles=1000; activeParticles=2; escapedParticles=587
 [captureStatistics] captureRate=0.413; escapeRate=0.587
-[Timer] step=5782; percent=41.0216; passedTime=32.287; remTime=46.4202; MLUPs=0.423423
-[captureStatistics] globalNumOfParticles=1000; activeParticles=11; escapedParticles=588
+[Timer] step=6910; percent=49.0245; passedTime=39.836; remTime=41.4214; MLUPs=0.959184
+[captureStatistics] globalNumOfParticles=1000; activeParticles=1; escapedParticles=587
+[captureStatistics] captureRate=0.413; escapeRate=0.587
+[Timer] step=7051; percent=50.0248; passedTime=39.974; remTime=39.9343; MLUPs=1.02174
+[captureStatistics] globalNumOfParticles=1000; activeParticles=1; escapedParticles=587
+[captureStatistics] captureRate=0.413; escapeRate=0.587
+[Timer] step=7192; percent=51.0252; passedTime=40.11; remTime=38.4982; MLUPs=1.03676
+[captureStatistics] globalNumOfParticles=1000; activeParticles=1; escapedParticles=588
 [captureStatistics] captureRate=0.412; escapeRate=0.588
-[Timer] step=5923; percent=42.022; passedTime=32.602; remTime=44.9812; MLUPs=0.449045
-[captureStatistics] globalNumOfParticles=1000; activeParticles=11; escapedParticles=589
-[captureStatistics] captureRate=0.411; escapeRate=0.589
-[Timer] step=6064; percent=43.0223; passedTime=32.901; remTime=43.5732; MLUPs=0.473154
-[captureStatistics] globalNumOfParticles=1000; activeParticles=10; escapedParticles=590
-[captureStatistics] captureRate=0.41; escapeRate=0.59
-[Timer] step=6205; percent=44.0227; passedTime=33.168; remTime=42.1749; MLUPs=0.526119
-[captureStatistics] globalNumOfParticles=1000; activeParticles=9; escapedParticles=590
-[captureStatistics] captureRate=0.41; escapeRate=0.59
-[Timer] step=6346; percent=45.0231; passedTime=33.429; remTime=40.8196; MLUPs=0.54023
-[captureStatistics] globalNumOfParticles=1000; activeParticles=9; escapedParticles=591
-[captureStatistics] captureRate=0.409; escapeRate=0.591
-[Timer] step=6487; percent=46.0234; passedTime=33.674; remTime=39.4931; MLUPs=0.577869
-[captureStatistics] globalNumOfParticles=1000; activeParticles=8; escapedParticles=592
-[captureStatistics] captureRate=0.408; escapeRate=0.592
-[Timer] step=6628; percent=47.0238; passedTime=33.893; remTime=38.1833; MLUPs=0.646789
-[captureStatistics] globalNumOfParticles=1000; activeParticles=7; escapedParticles=593
-[captureStatistics] captureRate=0.407; escapeRate=0.593
-[Timer] step=6769; percent=48.0241; passedTime=34.097; remTime=36.9027; MLUPs=0.687805
-[captureStatistics] globalNumOfParticles=1000; activeParticles=6; escapedParticles=593
-[captureStatistics] captureRate=0.407; escapeRate=0.593
-[Timer] step=6910; percent=49.0245; passedTime=34.309; remTime=35.6744; MLUPs=0.665094
-[captureStatistics] globalNumOfParticles=1000; activeParticles=5; escapedParticles=594
-[captureStatistics] captureRate=0.406; escapeRate=0.594
-[Timer] step=7051; percent=50.0248; passedTime=34.499; remTime=34.4648; MLUPs=0.742105
-[captureStatistics] globalNumOfParticles=1000; activeParticles=5; escapedParticles=595
-[captureStatistics] captureRate=0.405; escapeRate=0.595
-[Timer] step=7192; percent=51.0252; passedTime=34.673; remTime=33.2797; MLUPs=0.815029
-[captureStatistics] globalNumOfParticles=1000; activeParticles=4; escapedParticles=595
-[captureStatistics] captureRate=0.405; escapeRate=0.595
-[Timer] step=7333; percent=52.0255; passedTime=34.836; remTime=32.1234; MLUPs=0.865031
-[captureStatistics] globalNumOfParticles=1000; activeParticles=4; escapedParticles=595
-[captureStatistics] captureRate=0.405; escapeRate=0.595
-[Timer] step=7474; percent=53.0259; passedTime=34.997; remTime=31.0028; MLUPs=0.88125
-[captureStatistics] globalNumOfParticles=1000; activeParticles=4; escapedParticles=597
-[captureStatistics] captureRate=0.403; escapeRate=0.597
-[Timer] step=7615; percent=54.0263; passedTime=35.162; remTime=29.9212; MLUPs=0.854545
-[captureStatistics] globalNumOfParticles=1000; activeParticles=2; escapedParticles=597
-[captureStatistics] captureRate=0.403; escapeRate=0.597
-[Timer] step=7756; percent=55.0266; passedTime=35.325; remTime=28.8712; MLUPs=0.87037
-[captureStatistics] globalNumOfParticles=1000; activeParticles=2; escapedParticles=598
-[captureStatistics] captureRate=0.402; escapeRate=0.598
-[Timer] step=7897; percent=56.027; passedTime=35.477; remTime=27.8443; MLUPs=0.927632
-[captureStatistics] globalNumOfParticles=1000; activeParticles=1; escapedParticles=598
-[captureStatistics] captureRate=0.402; escapeRate=0.598
-[Timer] step=8038; percent=57.0273; passedTime=35.614; remTime=26.8368; MLUPs=1.03676
-[captureStatistics] globalNumOfParticles=1000; activeParticles=1; escapedParticles=599
-[captureStatistics] captureRate=0.401; escapeRate=0.599
-[Timer] step=8179; percent=58.0277; passedTime=35.729; remTime=25.8434; MLUPs=1.22609
-[captureStatistics] globalNumOfParticles=1000; activeParticles=0; escapedParticles=599
-[captureStatistics] captureRate=0.401; escapeRate=0.599
+[Timer] step=7333; percent=52.0255; passedTime=40.234; remTime=37.1011; MLUPs=1.1371
+[captureStatistics] globalNumOfParticles=1000; activeParticles=0; escapedParticles=588
+[captureStatistics] captureRate=0.412; escapeRate=0.588
 [Timer] 
 [Timer] ----------------Summary:Timer----------------
-[Timer] measured time (rt) : 35.773s
-[Timer] measured time (cpu): 32.555s
-[Timer] average MLUPs :       0.229
-[Timer] average MLUPps:       0.114
+[Timer] measured time (rt) : 40.273s
+[Timer] measured time (cpu): 32.303s
+[Timer] average MLUPs :       0.182
+[Timer] average MLUPps:       0.091
 [Timer] ---------------------------------------------

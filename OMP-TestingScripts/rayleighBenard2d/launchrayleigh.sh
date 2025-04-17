@@ -4,6 +4,6 @@
 # That would be openLB_original and OpenLB
 
 
-for n in 1 2 4 8 16 32 64; do
-    sed -e "s/OMP_NUM_THREADS/$n/g" runrayleigh_changed.sh | sbatch
+for n in 1 do
+    sed -e "s/N/$n/g" runrayleigh_changed.sh | sbatch
 done
