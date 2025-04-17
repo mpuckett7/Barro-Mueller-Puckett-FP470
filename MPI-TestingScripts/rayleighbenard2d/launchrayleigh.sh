@@ -5,6 +5,10 @@
 
 module load mpi
 
-for n in 1 2 4 8 16 32; do
+sed -e "s/MPI_NUM_TASKS/1/g" runrayleigh1.sh | sbatch
+
+sed -e "s/MPI_NUM_TASKS/2/g" runrayleigh2.sh | sbatch
+
+for n in 4 8 16 32; do
     sed -e "s/MPI_NUM_TASKS/$n/g" runrayleigh_changed.sh | sbatch
 done
