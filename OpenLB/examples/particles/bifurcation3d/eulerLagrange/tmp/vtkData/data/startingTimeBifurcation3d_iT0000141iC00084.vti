@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<VTKFile type="ImageData" version="0.1" byte_order="LittleEndian" compressor="vtkZLibDataCompressor">
+<ImageData WholeExtent="-1 4 -1 6 -1 6" Origin="0.021313 0.00131518 -0.00470425" Spacing="0.00105246 0.00105246 0.00105246">
+<Piece Extent="-1 4 -1 6 -1 6">
+<PointData>
+<DataArray type="Float32" Name="physVelocity" NumberOfComponents="3" format="binary" encoding="base64">
+AQAAAAASAAAAEgAA2QIAAA==eJwrOCBq8Xrq2i1ZNgt2SDyTtliTP2Xr60NTd0w//dp8SUHc1ksvY3awbMsx62Bds1HryP1tDDjAYScZi7N50lt5BebvuPhW3CIl8M7WYycm7fh88qJ526ugbc+SvHZsST5juu/1UqOS+xY4zfkjIm2xtPPcVmPPuTvkXQUs1JZ7b5vF2b6D6dwM8y3dh7dymYruwKUXGdyWlbJwsnDfVn956g6XjEfmqe2Z2249Ddmhc+q52cGJZzd7sORtJ8acWzZvzXn7kre9qk3dYWeRYP574s6t+Q9uEqUXGVRHBZtr9N/eKqh7mmS9gxk8jxG34J6lYRqsM3/HOT0uizSB7VtSZTp2sPrUm8+q+7BlK8MLovyr4yFmoZAVtdWhYe4OGRU2i+nTVbcZ36rdUaAUZd7j/n6LUv5JosyJERa3kK1X38aVN2NHits98+KajG3PkkN2FG1bZhZq8nTLhU8SRJmzfxOPxaUFfNskbjbuEL8+0fz+otVbo4+zE5X2kMHRuI3mt54mbf26VmPH96N8ps22hRv/PynaSqo5Ho+0zFIP/9/sF7gWZ94ZiuDjQn6LRd8Ztq4OnbTjhu8a864vYqb5D91JDuez63gsNM+rbv3u3rej02KJuXNYzxYfPiOSzUmfwm3x6+7HrYVOtTu2+DWa/47YsTWR6zPJeZZv9lXzrXO+b80qtNkRubvfzInvxxb/vaIkm/PJQd/c6pjjlgfKC4dVuUEtcKH8p/kckQNbLn0q23FxlYP5VONlJvt7NpIcVhqHn5lvUb2/1f5E8g4/Y07zsNd/TLq+p5Nsjo/nTvOQI7ZbtWRMSE57yKAoMs18l9sq414P4sq9UUAe8Dy/xNyjdsIWRkk9iuLrdV+f+fYF+Vvd1wtSZI6Eor75Fi7NrQdZN4zG+xAAS6T4za2kk0w0J7tTFF/LZKvNzIsuGs1h3zis6vdRMApGwSgYBYMTAABCpy27
+</DataArray>
+<DataArray type="Float32" Name="physPressure" NumberOfComponents="1" format="binary" encoding="base64">
+AQAAAAAGAAAABgAABgEAAA==eJzjmai6w5zVYMfdo8Y7/hwy3cEABZla6jtipAx2XPIz3iGmYQ4Xl1ulvmOZvcGO7D0mcDEQOLNeY8fbDr0dhzlNUcQdbLV3lM3QRREDgdznGhhi5IAfKlo7bJt1d6hrGKOYZ7tWY4fpAp0d+9sMUMSjdqnvMDuss2PVPVTxybpqOz6qamO4ac8ztR2XhNUwxKN3KlPF/R9Z1Xcs3K6CYda8s6o7VuzCFL/nrbzj9xRM92zRVNwxrw5T/ZqDclRxJy7QqCy7I/6PLIYdr+bJ7tjRjim+tksKq3scy6Vp6k5cIE1DDKu9qcYSWMXPfsL000CCm3+xh9u5XwMTnqNgaAEA6thjLQ==
+</DataArray>
+</PointData>
+</Piece>
+</ImageData>
+</VTKFile>

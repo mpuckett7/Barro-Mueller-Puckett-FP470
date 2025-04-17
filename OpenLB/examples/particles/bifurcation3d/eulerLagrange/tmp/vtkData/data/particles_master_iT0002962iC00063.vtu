@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<VTKFile type="UnstructuredGrid" version="0.1" byte_order="LittleEndian">
+<UnstructuredGrid>
+<Piece NumberOfPoints="12" NumberOfCells="12">
+<PointData Vectors="Particles">
+<DataArray type="Float32" Name="Mass" NumberOfComponents="1" >
+1.41117e-08 1.41117e-08 1.41117e-08 1.41117e-08 1.41117e-08 1.41117e-08 1.41117e-08 1.41117e-08 1.41117e-08 1.41117e-08 1.41117e-08 1.41117e-08 
+</DataArray>
+<DataArray type="Float32" Name="Radius" NumberOfComponents="1" >
+0.00015 0.00015 0.00015 0.00015 0.00015 0.00015 0.00015 0.00015 0.00015 0.00015 0.00015 0.00015 
+</DataArray>
+<DataArray type="Float32" Name="Velocity" NumberOfComponents="3" >
+0.00920696 0.000122052 -0.0149113 0.00296121 5.89837e-05 -0.00467743 0.00553726 0.000130074 -0.00879464 0.00371876 9.84513e-05 -0.00585026 0.00370875 8.68304e-05 -0.00584309 0.00552276 0.000130003 -0.00878184 0.00477853 3.59508e-05 -0.00789621 0.0098597 -1.72667e-05 -0.016447 0 0 0 0.00565213 -9.70787e-06 -0.00954832 0 0 0 0.00675642 6.44527e-05 -0.0104662 
+</DataArray>
+<DataArray type="Float32" Name="Force" NumberOfComponents="3" >
+-1.65717e-11 -1.93046e-12 -5.49906e-12 -4.78751e-12 -1.25935e-12 5.55271e-12 -3.85733e-12 4.86498e-13 -7.97028e-12 -5.00785e-12 -4.46785e-12 6.06653e-12 -1.44813e-12 -3.38346e-12 4.29539e-12 -2.56509e-12 -1.69607e-13 -9.0501e-12 -4.23981e-12 -1.07187e-12 -5.91867e-12 -2.37248e-11 -1.09218e-11 -3.66253e-12 -1.62786e-13 8.49825e-13 -1.05198e-12 -1.25367e-11 -5.29764e-12 -9.0475e-13 -1.56411e-10 -3.71394e-12 3.75194e-10 -1.15115e-11 6.35652e-12 -7.47972e-14 
+</DataArray>
+<DataArray type="Float32" Name="Active" NumberOfComponents="1" >
+1 1 1 1 1 1 1 1 0 1 0 1 
+</DataArray>
+</PointData>
+<CellData /> 
+<Cells>
+<DataArray type="Int32" Name="connectivity" format="ascii">
+0 1 2 3 4 5 6 7 8 9 10 11 </DataArray>
+<DataArray type="Int32" Name="offsets" format="ascii">
+1 2 3 4 5 6 7 8 9 10 11 12 </DataArray>
+<DataArray type="UInt8" Name="types" format="ascii">
+1 1 1 1 1 1 1 1 1 1 1 1 </DataArray>
+</Cells>
+<Points>
+<DataArray type="Float32" Name="Position" NumberOfComponents="3" >
+0.0172848 0.00613726 -0.0116721 0.0116913 0.00597901 -0.00961908 0.0138733 0.00644649 -0.00941864 0.0113794 0.00642079 -0.00699954 0.0115981 0.00639202 -0.00748181 0.0139197 0.00644046 -0.00954494 0.0150705 0.00616738 -0.0132241 0.0192792 0.00596162 -0.0148618 0.012091 0.00450592 -0.0137111 0.0164084 0.00619799 -0.0145755 0.0111411 0.00151719 -0.0148618 0.0136052 0.00651563 -0.007172 
+</DataArray>
+</Points>
+</Piece>
+</UnstructuredGrid>
+</VTKFile>

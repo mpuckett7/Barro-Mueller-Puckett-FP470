@@ -29,7 +29,7 @@ LDFLAGS         :=
 # Parallelization mode, must be one of: OFF, MPI, OMP, HYBRID
 # Note that for MPI and HYBRID the compiler also needs to be adapted.
 # See e.g. `config/cpu_gcc_openmpi.mk`
-PARALLEL_MODE   := MPI
+PARALLEL_MODE   := HYBRID
 
 # optional MPI and OpenMP flags
 MPIFLAGS        := 

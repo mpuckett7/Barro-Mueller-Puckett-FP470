@@ -1,13 +1,13 @@
 #!/bin/bash
-# #SBATCH --job-name=RAY_OMP_TESTING
+# #SBATCH --job-name=BIFURCATION_OMP_TESTS
 # #SBATCH --nodes=1
 
 cd ../../
 cd OpenLB/
 make clean; make
-cd examples/thermal/rayleighBenard2d
+cd examples/particles/bifurcation3d/eulerLagrange
 make
 
 for t in 1 2 4 8 16 32; do
-    OMP_NUM_THREADS=$t salloc ./rayleighBenard2d
+    OMP_NUM_THREADS=$t salloc ./bifurcation3d
 done

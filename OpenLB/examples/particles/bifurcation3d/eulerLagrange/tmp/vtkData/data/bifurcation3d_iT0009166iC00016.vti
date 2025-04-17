@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<VTKFile type="ImageData" version="0.1" byte_order="LittleEndian" compressor="vtkZLibDataCompressor">
+<ImageData WholeExtent="-1 2 -1 6 -1 9" Origin="-0.0123658 -0.00499959 0.0237122" Spacing="0.00105246 0.00105246 0.00105246">
+<Piece Extent="-1 2 -1 6 -1 9">
+<PointData>
+<DataArray type="Float32" Name="physVelocity" NumberOfComponents="3" format="binary" encoding="base64">
+AQAAAIAQAACAEAAARAMAAA==eJzt1PtTTGEcx/FacpmQyBZiIrGScqn2bNu4ZGtzv2z6QZltabpQw2hcRkXFTHRxWVtNzXQx5d4Ss+15nu+mMrEtowuSQmRE22xiUjv9kPgLzszXjMEOn59fc+Z53mfOsbL683NYtBxGmV4zs4wROoxPvHYRxDO3ieoKPnL6DNUAqfM8J2zJ2g0RzH1IgjRRjs2MKi7/StVOo33jfbPDXXW6Y0bQDkaKqvq8OH2161wYKdvPNB1fr3N4Z63rUuUxojhvTn+G0dMm20/M0ZHPoOEZYZOhjBRHuHH63znN1h4qHphJplaPQvXfuT8ZnEI/M4GttSj/au5t6JTfEtXfG8t5X6YiiO6pGy1yC0uB4Gw9eMrmiaIYZ05/x72aOt9uFm43PIfu4XoQRl1n01pcOH1xfCxbM+SkFfNbiYRfCTZiPelIn/xX9N+yJJs0KvKEBXxHwPjv46QwG+oZp+sFqP7ehgwQXN0hUpd2o7xhex487CXMgSbu97Uu6TzpHT+gDS1R07KUszCD9548Cp+I6jn5RDooDcuoJGwYdZ6/bf5iR1hfncOq18Sizp88uBHaFmUyfdp7KN+8OQ5cohYyxauMKB+XdwiWKJUklZhRPli5AXx5X8mCWe0W2T/X/wEND1YQwSEn1PlNTdMh1KPE50pjIcp7dbvD2JgspmNSHcoHea8EY04oMVk/Q3lFphuY+9PJlxDWIvvzv3rQy7yn7HM/Fep/1VPTTw2lLNtmTkDdt69iAuwzFTDypSUoH184BboE8aTEqwLlYzS2oBPfJRPKcyyyf6q9VPsyS+YTMoZHML7txR0q21vMtpYvRt1X7tFO3yQNCRt8jqC849Me+qDRjkjzs1E+7W0X3WvTyj76HmmR/X922wr96fzABRpr93bU93LFPpFeSD0i5CUuR/WRll6jAUNa1n6aDOVlIUV0tZ2Z3S0R/BP9b1gXEX6nginfJUX1H/R1pDGmVKGD5weUL+oOo1VxEhLdYYf7Xh7K6YrTh8nWk7Wo51v6+EcPalYqUnwa1j6pxPjK+SpS06hmF56ag+qzY+Jj8k09QhICclHey89Mjt/Mp6M3GinG/9+vHQRWsCP6t+wz/SXyAw5AeSU=
+</DataArray>
+<DataArray type="Float32" Name="physPressure" NumberOfComponents="1" format="binary" encoding="base64">
+AQAAAIAFAACABQAAKQEAAA==eJxjYCAebF4gvxuZb3FTFs5nkZXfXe4hB+ff+SO72+4iQv3cRsXdj44pwPnvFyvs3ngD1TxC4IqfAop66xwZFH67I8I9rXFyuw8eRrhndazi7qSHCPUXBeV3h4fIkGT/oqWSKOrvGEij8Kd3o/ItPyDMTy6V3W0+WQpF/pShFEn2o4MDqaj6fV0kUPhruFDlZ8qg8j0bJCiy/+BPVP0s60VR+BImYij859vEUfgRi8Uosv/yVxEU/esZUO2/Uo4qHzQTlb+WTZQi+2sPCKLoP96Har53sjAK//x8IRT+k2gRiuxHB3eiUN2z+TA/Cr/huwAKf9VzfqrabxHNi2LeFgVUvsUBNP4MPqraL+bHhZofC1H9xx2OKj/jIXXtJxXc/MK5GwBb328O
+</DataArray>
+</PointData>
+</Piece>
+</ImageData>
+</VTKFile>

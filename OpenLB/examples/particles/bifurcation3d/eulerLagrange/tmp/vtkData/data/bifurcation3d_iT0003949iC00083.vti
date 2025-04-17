@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<VTKFile type="ImageData" version="0.1" byte_order="LittleEndian" compressor="vtkZLibDataCompressor">
+<ImageData WholeExtent="-1 4 -1 8 -1 6" Origin="0.021313 -0.00710451 -0.00470425" Spacing="0.00105246 0.00105246 0.00105246">
+<Piece Extent="-1 4 -1 8 -1 6">
+<PointData>
+<DataArray type="Float32" Name="physVelocity" NumberOfComponents="3" format="binary" encoding="base64">
+AQAAAIAWAACAFgAA4gMAAA==eJzt1+1PU1ccwPHGB2AIhFZhxSkPghPJRpRge849d2UpmE1AAhToAgqrneKqszqaPSg46AZMYOLKhjy8GGytZMaudVR6geN4qsJkWkFrDTNaBjhlWwHNOmGr2Yu92RuSe3PfkK3fP+CTe8/vnJx7OZyllbTfKdwbW3/hFUkCxcZRWWrQvuAxEH32Ybd+jkt8k5cKlGp5F1PnfeM8ShWJYUl+Bo6ZKkOGVj7kDti6I1/9GqQNZYHCk1W0nlPdtYnsmUiCUSEnsajuFpKVr4Yr343HQau4qH14XngnT91NxwFXEsmhYR+YKDmDdVPe5NPxlfDOSCEWh32ITF0p4L7UQct5/lQWGT45LJxxmvA5aQhpKbonzL1dhk8ZvkLnHsnAl+MBuKM0lAg08wSHfKoXXbfdbTnkMbiLWv2HGeu3rCOndhZQP8VUYLtWj3wseiHfFoSTNf7Ez4abgoOW0kWdX4xppDLOSlmLDLgpg0dqDOGURH0Uv3irEfH0pZT/Mi+ct/wwdCUNdqTkDHfSecf/UnkBAYgX+Cx0DypozXexnPe/RcdtCbB/KAhLfvyeuL3mNCVqiWFsykpWkIX9XHjB+Tq+3lyOAq+mm3fMTzJ2NuyPIMscm+Ff+hN4X3Iv0mRGwKq3N2C9WksciNeDWj6Plin6fCtpzr4ENMrTeFPdPaTKvASsigR8kROFHB+0Cr0elNNyWmTbyNmxH8xrKpvwnrBp5JfiMC9U7sAlihjU+JLF3OD+lJbTxnuB/KxiRWdmlga7DtnR3V1uatQuwBNGX1TaGg0eXFaymqOnf1rgZKDekQiomdWzWs/zqosoKrwNpjsi8ONJG7F9QQtAsoix6cx3ofqbH0OdTIL5QIoq2yuAP9/E2Jk7s4qc3lIArux+C8+cP4EiGybNVtNvjJ3qBS5ZW/+7ucCowgdaNUiSOiV0xz9l7MQR3uSviofUexvlOM1dhoKavwPjSnp3jSf6yam9RNJALPzzmIXxt8q/21m0B60tVkHX+h5WM/J5WYve9G4E60f8sCv7MKz7ItS0LL+d8f17VDyEHl97TlgctRmL1X2EbuwIdaOJz/jZ2rtHUacllPISbMUN65YjcXa4oGUii7EjOduDfOUj1GVFGI4kOohPth8EYVXPePbzEm0wrZj4KDCH2pjex+pcHE9ci+IKm6ma4BpWs65V5aInMwZwo7qPleMvfwfNWMcFA2+MsnLU9lR0dTq2c9sTo2cP/4+qn9UB3ZGUDo5fNKt/ouDI/YT9NS3Q9dhYna9H+VUEKS0GwrvXWTn9vnMwpDeXmr8Wy8rx5MmTJ09Ls78BEWWeMw==
+</DataArray>
+<DataArray type="Float32" Name="physPressure" NumberOfComponents="1" format="binary" encoding="base64">
+AQAAAIAHAACABwAAYAEAAA==eJxjYCANPHxYshub+L+Kst3v48sw5HbOK90dcaps94IrVShye+RKdxs2VOze4VWBIs61u3Q32+2y3TNXl6OIN9iU7q59V77bv698d311NVzutkPp7qDoit3bGit2P/dFiHPbl+1ef6F89x+tit05ztVY3UwJuHO4EKuZEpWFu5VEMcOIZV3hbotCTPEfO4p2324u3f3MAFWuq6NodxFL8e6aStRw+J1atFtmc9FupRmoYd0lVrS79krx7tpk7PFDK3D/XR5W++b05+6eYpWPIfe6MW/3K7kiDPEJgfm7/+zFNGtDS/7ubVNzMcTVNfJ3/yrHbjctQc3LDKx2HjuZhVXcOzRn9/Z6THde+569+1YnpnhhT/Zu925M/5ap5u5+/6mA7v7FBZZez8bqFnubNKzibNuxi79clY5V/MN/7OoHGyiamILVnVMskrGK+wli969MwNDw7yigLgAAHaGfPQ==
+</DataArray>
+</PointData>
+</Piece>
+</ImageData>
+</VTKFile>
