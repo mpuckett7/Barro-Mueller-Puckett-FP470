@@ -9,5 +9,5 @@ cd examples/thermal/rayleighBenard2d
 make
 
 for t in 1 2 4 8 16 32; do
-    OMP_NUM_THREADS=$t salloc ./rayleighBenard2d
+    OMP_NUM_THREADS=$t salloc ./rayleighBenard2d &> ray$t.txt
 done

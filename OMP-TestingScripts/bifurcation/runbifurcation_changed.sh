@@ -9,5 +9,5 @@ cd examples/particles/bifurcation3d/eulerLagrange
 make
 
 for t in 1 2 4 8 16 32; do
-    OMP_NUM_THREADS=$t salloc ./bifurcation3d
+    OMP_NUM_THREADS=$t salloc ./bifurcation3d &> bifurcation$t.txt
 done
