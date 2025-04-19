@@ -4,6 +4,7 @@
 
 cd ../../
 cd OpenLB/
+module load mpi
 make clean; make
 cd examples/thermal/rayleighBenard2d
 make

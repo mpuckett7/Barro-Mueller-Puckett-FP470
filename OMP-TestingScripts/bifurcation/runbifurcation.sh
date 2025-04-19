@@ -4,6 +4,7 @@
 
 cd ../../
 cd OpenLB/
+module load mpi
 make clean; make
 cd examples/particles/bifurcation3d/eulerLagrange
 make
