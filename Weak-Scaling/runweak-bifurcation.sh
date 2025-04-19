@@ -9,6 +9,10 @@ make clean; make
 cd examples/particles/bifurcation3d/eulerLagrange
 make
 
-for t in 2 5 10 20; do
-    OMP_NUM_THREADS=8 salloc ./bifurcation3d $t &> weak_bifur_r=$t.txt
+
+thread_count=(1 2 4 8 16 32)
+sim_res=(10 11 12 14 16 19)
+
+for t in 0 1 2 3 4 5; do
+    OMP_NUM_THREADS=${thread_count[$t]} salloc ./bifurcation3d ${sim_res[$t]} &> weak_bifur_r=$t.txt
 done
