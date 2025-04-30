@@ -495,7 +495,7 @@ public:
       #pragma omp parallel for schedule(static) firstprivate(cell)
       #endif
       for (int i = 0; i < _cells.size(); i++) {
-        cell.setCellId(iCell);
+        cell.setCellId(_cells[i]);
         OPERATOR().apply(cell);
       }
       // for (CellID iCell : _cells) {
@@ -551,7 +551,7 @@ public:
       #pragma omp parallel for schedule(static) firstprivate(cell)
       #endif
       for (int i = 0; i < _cells.size(); i++) {
-        cell.setCellId(iCell);
+        cell.setCellId(_cells[i]);
         OPERATOR().apply(cell, *_parameters);
       }
       // for (CellID iCell : _cells) {
