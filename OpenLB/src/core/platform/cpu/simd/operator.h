@@ -494,10 +494,14 @@ public:
       #ifdef PARALLEL_MODE_OMP
       #pragma omp parallel for schedule(static) firstprivate(cell)
       #endif
-      for (CellID iCell : _cells) {
+      for (int i = 0; i < _cells.size(); i++) {
         cell.setCellId(iCell);
         OPERATOR().apply(cell);
       }
+      // for (CellID iCell : _cells) {
+      //   cell.setCellId(iCell);
+      //   OPERATOR().apply(cell);
+      // }
     }
   }
 
@@ -546,10 +550,14 @@ public:
       #ifdef PARALLEL_MODE_OMP
       #pragma omp parallel for schedule(static) firstprivate(cell)
       #endif
-      for (CellID iCell : _cells) {
+      for (int i = 0; i < _cells.size(); i++) {
         cell.setCellId(iCell);
         OPERATOR().apply(cell, *_parameters);
       }
+      // for (CellID iCell : _cells) {
+      //   cell.setCellId(iCell);
+      //   OPERATOR().apply(cell, *_parameters);
+      // }
     }
   }
 
