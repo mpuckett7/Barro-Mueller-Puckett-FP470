@@ -39,7 +39,7 @@ OMPFLAGS        := -fopenmp
 # Both CPU_SIMD and GPU_CUDA require system-specific adjustment of compiler flags.
 # See e.g. `config/cpu_simd_intel_mpi.mk` or `config/gpu_only.mk` for examples.
 # CPU_SISD must always be present.
-PLATFORMS       := CPU_SISD
+PLATFORMS       := CPU_SISD CPU_SIMD
 
 # Fundamental arithmetic data type
 # Common options are float or double
