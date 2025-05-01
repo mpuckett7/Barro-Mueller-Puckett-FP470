@@ -1,0 +1,25 @@
+----------------- UnitConverter information -----------------
+-- Parameters:
+Resolution:                       N=              19
+Lattice velocity:                 latticeU=       0.0505667
+Lattice relaxation frequency:     omega=          1.79325
+Lattice relaxation time:          tau=            0.557646
+Characteristical length(m):       charL=          0.0199968
+Characteristical speed(m/s):      charU=          0.037506
+Phys. kinematic viscosity(m^2/s): charNu=         1.5e-05
+Phys. density(kg/m^d):            charRho=        1.225
+Characteristical pressure(N/m^2): charPressure=   0
+Mach number:                      machNumber=     0.087584
+Reynolds number:                  reynoldsNumber= 50
+Knudsen number:                   knudsenNumber=  0.00175168
+
+-- Conversion factors:
+Voxel length(m):                  physDeltaX=     0.00105246
+Time step(s):                     physDeltaT=     0.00141896
+Velocity factor(m/s):             physVelocity=   0.741715
+Density factor(kg/m^3):           physDensity=    1.225
+Mass factor(kg):                  physMass=       1.42809e-09
+Viscosity factor(m^2/s):          physViscosity=  0.000780627
+Force factor(N):                  physForce=      7.46488e-07
+Pressure factor(N/m^2):           physPressure=   0.673922
+-------------------------------------------------------------

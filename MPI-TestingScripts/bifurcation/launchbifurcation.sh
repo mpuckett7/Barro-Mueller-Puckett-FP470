@@ -1,7 +1,6 @@
 #!/bin/bash
 # Run to submit all jobs for bifurcation3d both changed and unchanged tests using MPI.
 # Make sure the MPI config file provided is the one that is named config and in the outer directories
-# That would be openLB_original and OpenLB
 
 module load mpi
 

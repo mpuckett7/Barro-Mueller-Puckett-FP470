@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<VTKFile type="Collection" version="0.1" byte_order="LittleEndian">
+<Collection>
+<DataSet timestep="0" group="" part="" file="data/startingTimeBifurcation3d_iT0000000.vtm"/>
+<DataSet timestep="141" group="" part="" file="data/startingTimeBifurcation3d_iT0000141.vtm"/>
+<DataSet timestep="282" group="" part="" file="data/startingTimeBifurcation3d_iT0000282.vtm"/>
+<DataSet timestep="423" group="" part="" file="data/startingTimeBifurcation3d_iT0000423.vtm"/>
+<DataSet timestep="564" group="" part="" file="data/startingTimeBifurcation3d_iT0000564.vtm"/>
+<DataSet timestep="705" group="" part="" file="data/startingTimeBifurcation3d_iT0000705.vtm"/>
+<DataSet timestep="846" group="" part="" file="data/startingTimeBifurcation3d_iT0000846.vtm"/>
+<DataSet timestep="987" group="" part="" file="data/startingTimeBifurcation3d_iT0000987.vtm"/>
+<DataSet timestep="1128" group="" part="" file="data/startingTimeBifurcation3d_iT0001128.vtm"/>
+<DataSet timestep="1269" group="" part="" file="data/startingTimeBifurcation3d_iT0001269.vtm"/>
+<DataSet timestep="1410" group="" part="" file="data/startingTimeBifurcation3d_iT0001410.vtm"/>
+<DataSet timestep="1551" group="" part="" file="data/startingTimeBifurcation3d_iT0001551.vtm"/>
+<DataSet timestep="1692" group="" part="" file="data/startingTimeBifurcation3d_iT0001692.vtm"/>
+<DataSet timestep="1833" group="" part="" file="data/startingTimeBifurcation3d_iT0001833.vtm"/>
+<DataSet timestep="1974" group="" part="" file="data/startingTimeBifurcation3d_iT0001974.vtm"/>
+<DataSet timestep="2115" group="" part="" file="data/startingTimeBifurcation3d_iT0002115.vtm"/>
+<DataSet timestep="2256" group="" part="" file="data/startingTimeBifurcation3d_iT0002256.vtm"/>
+<DataSet timestep="2397" group="" part="" file="data/startingTimeBifurcation3d_iT0002397.vtm"/>
+<DataSet timestep="2538" group="" part="" file="data/startingTimeBifurcation3d_iT0002538.vtm"/>
+<DataSet timestep="2679" group="" part="" file="data/startingTimeBifurcation3d_iT0002679.vtm"/>
+<DataSet timestep="2820" group="" part="" file="data/startingTimeBifurcation3d_iT0002820.vtm"/>
+<DataSet timestep="2961" group="" part="" file="data/startingTimeBifurcation3d_iT0002961.vtm"/>
+<DataSet timestep="3102" group="" part="" file="data/startingTimeBifurcation3d_iT0003102.vtm"/>
+<DataSet timestep="3243" group="" part="" file="data/startingTimeBifurcation3d_iT0003243.vtm"/>
+<DataSet timestep="3384" group="" part="" file="data/startingTimeBifurcation3d_iT0003384.vtm"/>
+</Collection>
+</VTKFile>

@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<VTKFile type="UnstructuredGrid" version="0.1" byte_order="LittleEndian">
+<UnstructuredGrid>
+<Piece NumberOfPoints="8" NumberOfCells="8">
+<PointData Vectors="Particles">
+<DataArray type="Float32" Name="Mass" NumberOfComponents="1" >
+1.41117e-08 1.41117e-08 1.41117e-08 1.41117e-08 1.41117e-08 1.41117e-08 1.41117e-08 1.41117e-08 
+</DataArray>
+<DataArray type="Float32" Name="Radius" NumberOfComponents="1" >
+0.00015 0.00015 0.00015 0.00015 0.00015 0.00015 0.00015 0.00015 
+</DataArray>
+<DataArray type="Float32" Name="Velocity" NumberOfComponents="3" >
+0.00269681 0.00086489 -0.0208363 0.00188458 0.000825423 -0.0190333 0.00237416 0.0008352 -0.0198383 0.00144624 0.000903712 -0.0183993 0.000304906 0.000988719 -0.0175026 -0.000191389 0.00110528 -0.0170587 0.000985869 0.00106647 -0.017464 0.00240988 0.000871209 -0.0195003 
+</DataArray>
+<DataArray type="Float32" Name="Force" NumberOfComponents="3" >
+7.08626e-11 1.45543e-11 9.24557e-11 4.918e-11 5.21428e-12 1.2457e-10 6.51555e-11 8.06618e-12 1.08708e-10 3.97649e-11 6.50223e-12 1.48618e-10 1.80051e-11 1.16954e-11 1.75327e-10 -4.21068e-12 1.35877e-11 2.18289e-10 3.43522e-11 8.30283e-12 1.97154e-10 6.94698e-11 7.0275e-12 1.31637e-10 
+</DataArray>
+<DataArray type="Float32" Name="Active" NumberOfComponents="1" >
+1 1 1 1 1 1 1 1 
+</DataArray>
+</PointData>
+<CellData /> 
+<Cells>
+<DataArray type="Int32" Name="connectivity" format="ascii">
+0 1 2 3 4 5 6 7 </DataArray>
+<DataArray type="Int32" Name="offsets" format="ascii">
+1 2 3 4 5 6 7 8 </DataArray>
+<DataArray type="UInt8" Name="types" format="ascii">
+1 1 1 1 1 1 1 1 </DataArray>
+</Cells>
+<Points>
+<DataArray type="Float32" Name="Position" NumberOfComponents="3" >
+0.00524238 -0.00592362 0.0166033 0.00344515 -0.00663863 0.0170717 0.00437817 -0.00631423 0.0164789 0.00248908 -0.00680538 0.0169461 0.00058162 -0.00698346 0.0170726 -0.000225088 -0.00682182 0.0154764 0.00138834 -0.00675561 0.0152808 0.00398503 -0.00637541 0.015496 
+</DataArray>
+</Points>
+</Piece>
+</UnstructuredGrid>
+</VTKFile>

@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<VTKFile type="UnstructuredGrid" version="0.1" byte_order="LittleEndian">
+<UnstructuredGrid>
+<Piece NumberOfPoints="8" NumberOfCells="8">
+<PointData Vectors="Particles">
+<DataArray type="Float32" Name="Mass" NumberOfComponents="1" >
+1.41117e-08 1.41117e-08 1.41117e-08 1.41117e-08 1.41117e-08 1.41117e-08 1.41117e-08 1.41117e-08 
+</DataArray>
+<DataArray type="Float32" Name="Radius" NumberOfComponents="1" >
+0.00015 0.00015 0.00015 0.00015 0.00015 0.00015 0.00015 0.00015 
+</DataArray>
+<DataArray type="Float32" Name="Velocity" NumberOfComponents="3" >
+-0.00930613 -1.66754e-05 -0.0144658 -0.00395547 -0.000212496 -0.00584914 -0.0095697 2.31757e-05 -0.015212 -0.00215434 -6.97246e-05 -0.00337638 -0.00522879 -0.000185978 -0.00779676 -0.00745652 0.000121944 -0.0116219 -0.00669612 0.000139684 -0.0105611 -0.00569419 0.000129684 -0.00904699 
+</DataArray>
+<DataArray type="Float32" Name="Force" NumberOfComponents="3" >
+6.33662e-12 1.26539e-12 -2.15035e-11 1.26513e-11 6.00429e-12 1.46963e-11 1.37483e-11 -2.49864e-12 -7.86026e-12 8.56613e-12 6.34949e-13 1.26082e-11 2.04927e-11 5.10285e-12 1.61803e-11 1.43681e-11 -1.17054e-12 2.80255e-12 1.53052e-11 -1.39004e-12 2.43017e-12 1.47935e-11 -4.69411e-13 4.40362e-12 
+</DataArray>
+<DataArray type="Float32" Name="Active" NumberOfComponents="1" >
+1 1 1 1 1 1 1 1 
+</DataArray>
+</PointData>
+<CellData /> 
+<Cells>
+<DataArray type="Int32" Name="connectivity" format="ascii">
+0 1 2 3 4 5 6 7 </DataArray>
+<DataArray type="Int32" Name="offsets" format="ascii">
+1 2 3 4 5 6 7 8 </DataArray>
+<DataArray type="UInt8" Name="types" format="ascii">
+1 1 1 1 1 1 1 1 </DataArray>
+</Cells>
+<Points>
+<DataArray type="Float32" Name="Position" NumberOfComponents="3" >
+-0.0143539 -0.00623047 -0.00690709 -0.00946713 -0.00654705 -0.00348133 -0.0152525 0.00617512 -0.00802884 -0.00928243 -0.00592407 -0.00612103 -0.0109028 -0.00663793 -0.0043187 -0.0131136 0.00649912 -0.00606808 -0.0133077 0.00650482 -0.0073698 -0.0129122 0.00647977 -0.00785241 
+</DataArray>
+</Points>
+</Piece>
+</UnstructuredGrid>
+</VTKFile>
