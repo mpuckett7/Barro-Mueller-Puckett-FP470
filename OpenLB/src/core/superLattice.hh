@@ -531,8 +531,16 @@ void SuperLattice<T,DESCRIPTOR>::collideAndStream()
   }
 
   // Communicate propagation overlap, optional post processing
-  executePostProcessors(PostCollide());
 
+  // Post collision with timing
+  //auto start = std::chrono::high_resolution_clock::now();
+  executePostProcessors(PostCollide());
+  //auto end = std::chrono::high_resolution_clock::now();
+  
+  // if (singleton::mpi().isMainProcessor()) {
+  //   std::chrono::duration<double, std::milli> elapsed = end - start;
+  //   std::cout << "Post collide time: " << elapsed.count() << "\n";
+  // }
   // Block-local propagation
   for (int iC = 0; iC < load.size(); ++iC) {
     _block[iC]->stream();
