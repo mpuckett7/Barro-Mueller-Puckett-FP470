@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<VTKFile type="UnstructuredGrid" version="0.1" byte_order="LittleEndian">
+<UnstructuredGrid>
+<Piece NumberOfPoints="11" NumberOfCells="11">
+<PointData Vectors="Particles">
+<DataArray type="Float32" Name="Mass" NumberOfComponents="1" >
+1.41117e-08 1.41117e-08 1.41117e-08 1.41117e-08 1.41117e-08 1.41117e-08 1.41117e-08 1.41117e-08 1.41117e-08 1.41117e-08 1.41117e-08 
+</DataArray>
+<DataArray type="Float32" Name="Radius" NumberOfComponents="1" >
+0.00015 0.00015 0.00015 0.00015 0.00015 0.00015 0.00015 0.00015 0.00015 0.00015 0.00015 
+</DataArray>
+<DataArray type="Float32" Name="Velocity" NumberOfComponents="3" >
+0.00582901 -2.88315e-06 -0.0108717 0.012597 0.000279425 -0.0221049 0 0 0 0.00450942 8.36245e-05 -0.00844072 0.00536747 0.000118902 -0.00995044 0.00937939 0.000111357 -0.0169489 0.00629128 4.54156e-05 -0.0116328 0.00280868 6.15361e-05 -0.005514 0.0056332 4.45574e-05 -0.0104688 0.00628567 0.000130678 -0.0115435 0.00460022 9.02455e-06 -0.00868958 
+</DataArray>
+<DataArray type="Float32" Name="Force" NumberOfComponents="3" >
+-7.59235e-11 -5.29084e-12 1.60043e-10 -6.39325e-11 -1.5229e-11 1.50395e-10 -1.88746e-10 -6.12244e-12 4.23208e-10 -9.54656e-11 -4.5035e-12 1.9296e-10 -8.58477e-11 1.7028e-12 1.80701e-10 -8.5388e-11 -1.23933e-11 1.57478e-10 -8.40483e-11 -5.54061e-12 1.73135e-10 -7.76754e-11 -3.74807e-12 1.68413e-10 -8.05141e-11 -4.35973e-12 1.69563e-10 -8.67541e-11 -8.71571e-12 1.87794e-10 -7.85489e-11 -1.71044e-12 1.72733e-10 
+</DataArray>
+<DataArray type="Float32" Name="Active" NumberOfComponents="1" >
+1 1 0 1 1 1 1 1 1 1 1 
+</DataArray>
+</PointData>
+<CellData /> 
+<Cells>
+<DataArray type="Int32" Name="connectivity" format="ascii">
+0 1 2 3 4 5 6 7 8 9 10 </DataArray>
+<DataArray type="Int32" Name="offsets" format="ascii">
+1 2 3 4 5 6 7 8 9 10 11 </DataArray>
+<DataArray type="UInt8" Name="types" format="ascii">
+1 1 1 1 1 1 1 1 1 1 1 </DataArray>
+</Cells>
+<Points>
+<DataArray type="Float32" Name="Position" NumberOfComponents="3" >
+0.0148349 0.00156151 -0.0201827 0.0139175 0.00395334 -0.0129885 0.0108678 0.00199689 -0.0141532 0.0118999 0.00330583 -0.0143445 0.0126387 0.0032138 -0.0153205 0.014716 0.00328485 -0.0170538 0.0141216 0.0026361 -0.0180254 0.0110227 0.00300932 -0.0138836 0.0136834 0.00265096 -0.0175259 0.0132763 0.00317513 -0.0160675 0.0143922 0.000798667 -0.020137 
+</DataArray>
+</Points>
+</Piece>
+</UnstructuredGrid>
+</VTKFile>

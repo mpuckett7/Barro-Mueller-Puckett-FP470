@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<VTKFile type="UnstructuredGrid" version="0.1" byte_order="LittleEndian">
+<UnstructuredGrid>
+<Piece NumberOfPoints="6" NumberOfCells="6">
+<PointData Vectors="Particles">
+<DataArray type="Float32" Name="Mass" NumberOfComponents="1" >
+1.41117e-08 1.41117e-08 1.41117e-08 1.41117e-08 1.41117e-08 1.41117e-08 
+</DataArray>
+<DataArray type="Float32" Name="Radius" NumberOfComponents="1" >
+0.00015 0.00015 0.00015 0.00015 0.00015 0.00015 
+</DataArray>
+<DataArray type="Float32" Name="Velocity" NumberOfComponents="3" >
+0.0178711 0.000223624 -0.0316056 0.0184076 0.000302529 -0.0344608 0.0193837 6.58471e-05 -0.0365745 0.0159315 -8.52069e-05 -0.027 0.0170637 -1.00225e-05 -0.0291308 0.0189909 0.000167004 -0.0334822 
+</DataArray>
+<DataArray type="Float32" Name="Force" NumberOfComponents="3" >
+1.25105e-10 -1.14185e-11 -9.72954e-11 2.1797e-10 -1.44924e-11 -1.58474e-10 2.23151e-10 -3.42386e-12 -1.56975e-10 -3.16183e-12 8.36673e-12 5.48247e-12 2.6742e-11 3.72399e-12 -2.36912e-11 9.80056e-11 -5.92322e-12 -8.26034e-11 
+</DataArray>
+<DataArray type="Float32" Name="Active" NumberOfComponents="1" >
+1 1 1 1 1 1 
+</DataArray>
+</PointData>
+<CellData /> 
+<Cells>
+<DataArray type="Int32" Name="connectivity" format="ascii">
+0 1 2 3 4 5 </DataArray>
+<DataArray type="Int32" Name="offsets" format="ascii">
+1 2 3 4 5 6 </DataArray>
+<DataArray type="UInt8" Name="types" format="ascii">
+1 1 1 1 1 1 </DataArray>
+</Cells>
+<Points>
+<DataArray type="Float32" Name="Position" NumberOfComponents="3" >
+0.015605 -0.00311434 -0.00903265 0.0156397 -0.00184953 -0.00820814 0.0164785 -0.000551982 -0.00980372 0.016318 -0.00418599 -0.0125593 0.0163739 -0.00383756 -0.0118736 0.0169625 -0.00273625 -0.0117448 
+</DataArray>
+</Points>
+</Piece>
+</UnstructuredGrid>
+</VTKFile>
